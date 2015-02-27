@@ -1,0 +1,5 @@
+Applications,Description
+FRWN-Time,Time keeping for Frownies employees - Not yet Integrated. 
+FRWN-ERP,Frownies went with an Enterprise Resource Planning system
+FRWN-Xfer,On occasion stores have to transfer inventory to other stores. Frownies has community connections for small business owners. This allows Frownies to act as an outlet for localized products. Sometimes these products have to go from one store to another. 
+FRWN-POS,Point of Sale application that takes feeds from the FRWN-ERP system. 

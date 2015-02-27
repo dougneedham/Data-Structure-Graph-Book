@@ -1,0 +1,19 @@
+Applications,Description
+ActaBenefits,Benefits enrollment and tracking for all employees
+ActaComp,Compliance system - All employees must access this system for internal training and compliance.
+ActaCS,Customer Service. Returns.complaints. Consolidated system immediately upon acquisition.
+ActaFin,Fincancials
+ActaHR,Human Resources application for employees.
+ActaKronos,Time keeping for employees
+ActaMktng,In Store promotions tied to television commercials. 
+ActaPay,Payroll for employees
+ActaSched,Labor scheduling system - encompass all hourly employees (Shipping grocery gas-stations etc.)
+EBJ_CRM,CRM system for EBJ
+EBJ_Purchasing,Purchasing application for EBJ
+EBJ_Security,Deliveries to and from the jewelry store must be handled by augmented security services. 
+WdyLoyalty,Woody's makes quality furniture but because it is wooden sometimes things happen. They have a particular loyalty program for customers. 
+WdyMktng,Marketing
+WdyPurchasing,Purchasing system for raw materials - Woody's makes good portions of their own furniture. 
+ActaPromise,Loyalty system. Keeps track of reward points and discounts provided for return customers. 
+WdyTime,time keepping for Woody's employees - Not yet integrated. 
+FRWN-Time,Time keeping for Frownies employees - Not yet Integrated. 

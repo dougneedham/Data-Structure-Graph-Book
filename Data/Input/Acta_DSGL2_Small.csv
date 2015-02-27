@@ -1,0 +1,7 @@
+Source,Target,Edge_Label
+ActaCS,ActaFresh,Offer
+ActaFresh,ActaPointStore,Offer
+ActaComp,ActaMobile,Offer
+ActaPointStore,ActaComp,Offer
+ActaMobile,ActaEDW,Offer
+FRWN-POS,ActaEDW,Offer

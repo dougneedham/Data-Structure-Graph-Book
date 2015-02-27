@@ -1,0 +1,7 @@
+Applications,Description
+EBJ_CRM,CRM system for EBJ
+EBJ_Insurance,Everyman's Best Jewelry offers insurance specific to its various lines of jewelry. No other business unit within ActaCorp offers insurance.
+EBJ_POS,Point of Sale system for the jewelry. 
+EBJ_POSHOSTED,Primary Point of Sale System. Considered the source of the data that is fed to the EBJ_POS systems.
+EBJ_Purchasing,Purchasing application for EBJ
+EBJ_Security,Deliveries to and from the jewelry store must be handled by augmented security services. 

@@ -1,0 +1,51 @@
+Applications,Description
+ActaAcctDM,Accounting Data Mart - disconnected from the main Data warehouse. 
+ActaBenefits,Benefits enrollment and tracking for all employees
+ActaBilling,Billing
+ActaComp,Compliance system - All employees must access this system for internal training and compliance.
+ActaCoupons,Coupon generation
+ActaCS,Customer Service. Returns.complaints. Consolidated system immediately upon acquisition.
+ActaData,Hadoop platform. (New)
+ActaDist,Distribution application. 
+ActaEDW,Data warehouse
+ActaFin,Fincancials
+ActaFlour,Bakery system - originally created because the bakery was an add-on.  Custom Cake orders are done here. 
+ActaFuel,Purchasing system for gasoline vendors. 
+ActaHR,Human Resources application for employees.
+ActaKronos,Time keeping for employees
+ActaLink,Internal connection system for asking questions from one employee to another
+ActaMfg,Some products are Acta branded.
+ActaMktng,In Store promotions tied to television commercials. 
+ActaMobile,Mobile application
+ActaODS,Original Operational Data Store. Brought online prior to the Enterprise Data Warehouse. Still active. 
+ActaPay,Payroll for employees
+ActaPharm,Pharmacy system
+ActaPlan,Planning. 
+ActaPointMain,Master Point of Sale System. 
+ActaPointStore,Store located Point of Sale system.
+ActaProdID,Product ID system. 
+ActaReport,Internal reporting system
+ActaSched,Labor scheduling system - encompass all hourly employees (Shipping grocery gas-stations etc.)
+ActaStore,Web 2.0 application - in limited use. 
+ActaStoreLoc,GIS application that not only has information about store location but also population information for the zip-codes near the store location.
+ActaWeb,Original Web application
+ActaWHSE,Warehouse management 
+EBJ_CRM,CRM system for EBJ
+EBJ_Insurance,Everyman's Best Jewelry offers insurance specific to its various lines of jewelry. No other business unit within ActaCorp offers insurance.
+EBJ_POS,Point of Sale system for the jewelry. 
+EBJ_POSHOSTED,Primary Point of Sale System. Considered the source of the data that is fed to the EBJ_POS systems.
+EBJ_Purchasing,Purchasing application for EBJ
+EBJ_Security,Deliveries to and from the jewelry store must be handled by augmented security services. 
+WdyLoyalty,Woody's makes quality furniture but because it is wooden sometimes things happen. They have a particular loyalty program for customers. 
+WdyMktng,Marketing
+WdyPOS,Point of Sale system for the Furniture stores. 
+WdyPurchasing,Purchasing system for raw materials - Woody's makes good portions of their own furniture. 
+WdySales, Sales
+ActaFresh,Produce purchasing and shipping. Ensures that vegetables are farm to store in a finite period of time. 
+ActaPromise,Loyalty system. Keeps track of reward points and discounts provided for return customers. 
+WdyTime,time keepping for Woody's employees - Not yet integrated. 
+EBJ_BIO,Biometric system for EBJ employees. Security requirements are higher due to potential for loss. 
+FRWN-Time,Time keeping for Frownies employees - Not yet Integrated. 
+FRWN-ERP,Frownies went with an Enterprise Resource Planning system
+FRWN-Xfer,On occasion stores have to transfer inventory to other stores. Frownies has community connections for small business owners. This allows Frownies to act as an outlet for localized products. Sometimes these products have to go from one store to another. 
+FRWN-POS,Point of Sale application that takes feeds from the FRWN-ERP system. 

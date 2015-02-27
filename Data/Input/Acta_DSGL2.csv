@@ -1,0 +1,489 @@
+Source,Target,Edge_Label
+WdyMktng,EBJ_POS,Store Catalog
+ActaDist,ActaMfg,Store Deliveries
+WdyMktng,ActaPointStore,Warehouse Delivery
+ActaComp,ActaLink,Order
+ActaReport,ActaBenefits,Price History
+EBJ_CRM,EBJ_POSHOSTED,Marketing Plans
+FRWN-Time,ActaStoreLoc,Site
+EBJ_CRM,ActaPlan,Price History
+EBJ_CRM,ActaMobile,OTS Vendor
+ActaFuel,EBJ_CRM,Sales
+ActaMobile,ActaFin,Authorization Data
+EBJ_BIO,EBJ_CRM,Vendor
+ActaBenefits,EBJ_POSHOSTED,Deal
+EBJ_CRM,ActaCS,OTS Cost
+ActaBilling,WdySales,DeliveryTruck
+ActaFuel,ActaFlour,Pack
+ActaEDW,ActaFuel,OTS
+EBJ_Insurance,ActaFresh,Consumer
+ActaPointMain,ActaCS,Consumer Case
+EBJ_POS,ActaCoupons,Warehouse Order
+EBJ_Purchasing,ActaFin,Allocation
+ActaComp,ActaFin,Location
+ActaFuel,EBJ_Insurance,Warehouse Shipping
+ActaProdID,ActaHR,OTS
+ActaFin,FRWN-POS,Authorization
+WdyPurchasing,ActaPharm,Campaign
+ActaProdID,WdyPurchasing,Store Catalog
+WdyMktng,FRWN-POS,BOL
+WdyLoyalty,ActaFin,Employee
+ActaHR,WdyLoyalty,Consumer Case
+ActaPointMain,ActaFin,Coupon
+ActaPointMain,FRWN-Time,Site
+EBJ_Insurance,EBJ_CRM,OTS Vendor
+FRWN-Xfer,WdyPOS,Item Detail
+ActaMfg,FRWN-Time,DeliveryTruck
+FRWN-Time,ActaFuel,Price History
+ActaDist,EBJ_Security,Consumer Case
+WdyMktng,ActaData,Warehouse Shipping
+ActaFresh,ActaFin,Contract
+ActaCS,ActaFresh,Offer
+FRWN-POS,ActaPlan,Division
+WdySales,ActaKronos,Employee
+ActaHR,ActaPointMain,DeliveryTruck
+ActaWeb,EBJ_Security,Coupon
+ActaWeb,EBJ_CRM,Promotion
+EBJ_BIO,ActaMobile,Scanner
+ActaData,ActaPharm,Deal
+ActaDist,WdyPurchasing,Warehouse Shipping
+ActaDist,EBJ_POSHOSTED,Site
+ActaEDW,ActaHR,Ingredient
+WdyTime,ActaPointStore,Scanner
+ActaPointStore,ActaODS,Price Change
+ActaFuel,EBJ_Security,OTS Vendor
+ActaData,ActaPointStore,Marketing Plans
+ActaProdID,ActaMfg,Authorization Data
+WdyTime,ActaStore,OTS Billing
+ActaProdID,ActaWeb,Warehouse Order
+ActaFresh,ActaStoreLoc,Site
+ActaFlour,ActaPay,Authorization Data
+ActaPromise,ActaLink,Vendor
+ActaHR,ActaEDW,Department
+ActaCoupons,ActaLink,OTS Cost
+ActaLink,EBJ_Purchasing,Store Deliveries
+ActaODS,ActaBilling,Sales Plans
+ActaPay,ActaDist,Sales Plans
+FRWN-Time,ActaPointStore,Unit
+ActaWHSE,ActaProdID,Store Inventory
+ActaMfg,ActaPointMain,Store Deliveries
+ActaBilling,EBJ_Purchasing,OTS Item
+EBJ_Security,ActaPharm,Timesheet
+ActaSched,ActaLink,Coupon
+ActaPay,ActaPointStore,Offer
+ActaPointMain,ActaCoupons,DeliveryTruck
+ActaFresh,ActaPlan,Warehouse Order
+EBJ_CRM,ActaStoreLoc,Item Hierarchy
+ActaPromise,ActaFuel,OTS Cost
+EBJ_Security,FRWN-ERP,Location
+EBJ_Purchasing,ActaCS,Vendor
+ActaPay,WdySales,Product
+ActaPay,ActaMfg,Purchase
+WdyLoyalty,ActaPromise,Employee
+EBJ_POSHOSTED,ActaMktng,Unit
+EBJ_POS,ActaEDW,Web-Log
+FRWN-Time,ActaEDW,Unit
+EBJ_Insurance,FRWN-ERP,Basket
+ActaPlan,ActaAcctDM,Timesheet
+EBJ_Purchasing,ActaFresh,Item Master
+ActaComp,ActaMobile,Offer
+EBJ_Insurance,ActaMobile,Department
+EBJ_BIO,ActaMfg,Ingredient
+ActaPay,FRWN-ERP,Department
+WdyPurchasing,ActaKronos,Store Inventory
+WdyTime,ActaFlour,Web-Log
+ActaStoreLoc,ActaSched,Basket
+EBJ_Purchasing,ActaBilling,Warehouse Shipping
+ActaPlan,WdyPOS,BOL
+ActaReport,FRWN-Xfer,OTS
+FRWN-Time,ActaFlour,Scanner
+ActaFlour,ActaPlan,OTS Billing
+ActaHR,EBJ_CRM,Product
+ActaPromise,ActaFuel,Promotion
+ActaEDW,ActaPay,Cost
+ActaFresh,EBJ_CRM,DeliveryTruck
+WdyPurchasing,EBJ_CRM,Revenue
+ActaMfg,ActaPointMain,Product
+WdyTime,ActaAcctDM,Product Case
+ActaDist,EBJ_Purchasing,OTS Order
+ActaFlour,ActaODS,Store Catalog
+ActaDist,ActaData,Consumer
+WdyLoyalty,ActaPay,Scanner
+ActaComp,ActaData,Customer
+WdyLoyalty,WdyPOS,Site
+WdyTime,ActaDist,Purchase
+ActaPromise,WdyLoyalty,Warehouse Delivery
+EBJ_BIO,ActaPointMain,Product
+WdyLoyalty,ActaProdID,Store Catalog
+WdyPOS,EBJ_Purchasing,Price History
+ActaFuel,WdyPurchasing,Department
+ActaODS,ActaFin,Store Deliveries
+ActaMfg,ActaComp,Consumer Case
+ActaProdID,FRWN-ERP,Product Case
+ActaODS,EBJ_POS,Store Deliveries
+ActaBenefits,ActaPointStore,Item Master
+WdyMktng,ActaFin,Case
+WdyMktng,ActaLink,Warehoust Dist
+ActaData,WdySales,OTS Vendor
+EBJ_POS,EBJ_Security,Case
+ActaBilling,ActaODS,Site
+FRWN-POS,ActaFuel,OTS Vendor
+ActaPointStore,ActaPay,Web-Log
+ActaAcctDM,WdyPurchasing,Authorization Data
+ActaPharm,ActaBenefits,OTS Vendor
+WdyPurchasing,EBJ_POSHOSTED,Store Deliveries
+EBJ_BIO,ActaWHSE,Unit
+ActaMktng,ActaProdID,Whse-Case
+EBJ_Purchasing,ActaFin,Warehouse Shipping
+ActaLink,ActaStore,Store Catalog
+ActaComp,ActaMktng,Contract
+ActaLink,WdyPOS,Warehoust Dist
+FRWN-Time,ActaBenefits,OTS Cost
+ActaBenefits,ActaData,Ingredient
+FRWN-POS,ActaComp,Web-Log
+ActaStore,ActaDist,Campaign
+ActaBenefits,WdyMktng,OTS Item
+ActaFlour,ActaReport,Store Catalog
+ActaAcctDM,ActaPharm,Warehouse Delivery
+ActaWeb,EBJ_Purchasing,Store Inventory
+FRWN-ERP,EBJ_POS,DeliveryTruck
+WdyPurchasing,ActaComp,Offer
+ActaFresh,ActaStoreLoc,OTS Order
+EBJ_CRM,FRWN-Time,Site
+ActaComp,WdyTime,Scanner
+ActaBenefits,WdyPurchasing,Warehouse Shipping
+ActaEDW,ActaCoupons,Warehouse Shipping
+ActaBilling,EBJ_CRM,Contract
+WdyMktng,ActaEDW,Offer
+ActaPointStore,ActaFuel,Item Detail
+FRWN-POS,ActaPointStore,OrderDetail
+ActaFlour,ActaFresh,Contract
+ActaSched,EBJ_CRM,Item Master
+ActaLink,ActaStore,Sales Plans
+WdyLoyalty,ActaCoupons,Order
+ActaStoreLoc,WdyTime,Store Catalog
+FRWN-POS,ActaCoupons,Contract
+ActaPointMain,ActaDist,Marketing Plans
+WdyPurchasing,EBJ_Insurance,OTS Order
+ActaComp,WdyPurchasing,Allocation
+EBJ_POS,WdySales,OTS Item
+ActaBilling,ActaPointMain,Authorization Data
+FRWN-POS,ActaProdID,Offer
+FRWN-ERP,ActaSched,OrderDetail
+ActaPointStore,ActaMobile,Warehouse Order
+ActaData,ActaReport,Scanner
+ActaPointStore,WdyPOS,Campaign
+FRWN-POS,WdyMktng,Price Data
+ActaLink,EBJ_Security,OTS
+ActaFuel,EBJ_POS,Offer
+WdyPOS,ActaPromise,DeliveryTruck
+WdyTime,ActaSched,Price Data
+EBJ_BIO,ActaBenefits,Ingredient
+ActaData,WdyTime,Authorization Data
+ActaData,ActaKronos,OTS Item
+EBJ_Security,ActaFlour,Scanner
+ActaWeb,ActaData,Unit
+ActaAcctDM,EBJ_POS,Site
+ActaReport,EBJ_POS,Contract
+ActaReport,EBJ_Insurance,Vendor
+ActaComp,ActaReport,Consumer
+ActaStoreLoc,ActaPromise,Price Data
+ActaFin,WdyPOS,Order
+EBJ_POS,ActaData,OTS Vendor
+ActaAcctDM,ActaHR,Store Catalog
+WdyTime,ActaWeb,Division
+ActaMobile,ActaFin,Store Catalog
+EBJ_Purchasing,ActaComp,Web-Log
+FRWN-POS,EBJ_CRM,Sales Plans
+ActaStore,ActaData,BOL
+ActaPharm,EBJ_CRM,Price Change
+WdyPurchasing,ActaDist,Item Hierarchy
+WdySales,ActaPharm,Warehoust Dist
+ActaProdID,ActaData,Pack
+ActaPointStore,ActaWeb,Deal
+ActaDist,FRWN-Xfer,Promotion
+ActaWeb,ActaMobile,Consumer
+ActaFlour,FRWN-ERP,Warehouse Order
+ActaData,ActaFlour,OTS Vendor
+EBJ_CRM,FRWN-Xfer,OTS Order
+FRWN-Xfer,ActaMobile,Whse-Case
+WdyPOS,ActaPromise,Consumer
+ActaFuel,EBJ_Insurance,Product Case
+ActaPharm,ActaMfg,Employee
+ActaMktng,ActaFin,Warehouse Order
+FRWN-POS,ActaODS,Site
+ActaFuel,ActaPlan,Deal
+ActaFin,ActaMktng,Timesheet
+EBJ_CRM,ActaPromise,Contract
+ActaODS,ActaBenefits,Store Catalog
+EBJ_Security,ActaMfg,Revenue
+ActaBenefits,ActaMobile,Ingredient
+FRWN-Time,ActaCS,Item Master
+FRWN-POS,ActaData,Item Detail
+ActaPay,ActaPointStore,Timesheet
+WdyMktng,ActaCoupons,Item Detail
+ActaEDW,ActaReport,Sales Plans
+WdyPurchasing,FRWN-POS,Unit
+ActaMktng,WdyPOS,OTS Billing
+ActaPay,EBJ_BIO,Whse-Case
+WdyMktng,ActaFresh,Item Master
+ActaComp,ActaStore,Warehouse Delivery
+ActaStore,WdySales,OTS Cost
+ActaPlan,ActaFresh,OTS Cost
+ActaWHSE,ActaKronos,OrderDetail
+ActaCS,EBJ_Purchasing,Offer
+ActaKronos,EBJ_CRM,Case
+ActaEDW,ActaLink,Revenue
+ActaPay,ActaWHSE,OTS Cost
+ActaBenefits,ActaEDW,Coupon
+ActaODS,EBJ_Purchasing,Item Master
+EBJ_POS,ActaEDW,Deal
+ActaPay,ActaStoreLoc,Authorization Overide
+WdyMktng,FRWN-POS,Sales
+ActaFin,WdySales,Ingredient
+ActaFuel,ActaPay,Revenue
+ActaBilling,ActaWeb,Promotion
+EBJ_POSHOSTED,ActaPlan,Promotion
+WdyPurchasing,ActaHR,Warehouse Delivery
+FRWN-Xfer,ActaPlan,Web-Log
+WdyLoyalty,ActaComp,Case
+ActaPromise,ActaEDW,Warehoust Dist
+ActaFuel,ActaMobile,Store Inventory
+ActaDist,WdySales,Revenue
+ActaPointStore,WdyPOS,Whse-Case
+ActaWHSE,EBJ_POS,Department
+FRWN-POS,ActaPointMain,Product
+EBJ_Insurance,ActaHR,Contract
+ActaData,WdyTime,Deal
+FRWN-ERP,EBJ_POS,Item Hierarchy
+ActaSched,ActaPay,OTS Order
+ActaWeb,ActaPromise,Price Change
+ActaODS,EBJ_CRM,Promotion
+ActaEDW,FRWN-ERP,OTS Vendor
+ActaKronos,ActaWeb,Item Detail
+ActaDist,EBJ_BIO,OTS Billing
+ActaEDW,WdySales,Authorization Data
+WdyTime,ActaReport,Promotion
+WdyLoyalty,ActaAcctDM,Warehouse Delivery
+ActaMfg,ActaDist,Item Hierarchy
+ActaProdID,ActaMobile,Product Case
+ActaWeb,ActaPlan,Consumer Case
+ActaPointMain,ActaSched,Item Detail
+ActaSched,EBJ_POS,Vendor
+EBJ_CRM,ActaWeb,Purchase
+ActaCoupons,ActaBilling,Scanner
+EBJ_Security,EBJ_Insurance,Sales
+ActaCoupons,ActaLink,OTS Vendor
+ActaMobile,ActaStoreLoc,Offer
+ActaStoreLoc,ActaProdID,Warehouse Shipping
+ActaBilling,FRWN-POS,Warehouse Shipping
+EBJ_Insurance,ActaPlan,Pack
+ActaBilling,EBJ_Insurance,OTS Vendor
+EBJ_POS,FRWN-Time,Web-Log
+ActaHR,ActaReport,OTS Vendor
+ActaFresh,EBJ_Security,OTS Vendor
+WdyPurchasing,ActaReport,Price Change
+WdyPurchasing,FRWN-Time,Sales
+ActaReport,WdyPOS,Order
+FRWN-Time,ActaPharm,OrderDetail
+FRWN-ERP,ActaEDW,Item Hierarchy
+ActaKronos,ActaAcctDM,Warehouse Order
+WdyMktng,WdyPOS,Scanner
+ActaSched,ActaKronos,Offer
+WdyTime,ActaWeb,Item Hierarchy
+FRWN-POS,WdyPurchasing,Web-Log
+ActaFlour,ActaFuel,Allocation
+WdyPOS,ActaPromise,Campaign
+ActaHR,ActaFin,Cost
+ActaData,ActaReport,Purchase
+ActaFresh,ActaComp,Contract
+FRWN-Time,ActaProdID,Site
+ActaMktng,EBJ_Insurance,OTS
+ActaBenefits,ActaReport,Authorization Data
+ActaBenefits,WdyMktng,Division
+ActaCoupons,ActaPointStore,Department
+ActaProdID,EBJ_Security,Item Detail
+ActaBenefits,EBJ_CRM,Store Inventory
+ActaCS,ActaPlan,Authorization Data
+EBJ_CRM,ActaProdID,Sales Plans
+ActaPromise,ActaBenefits,Store Deliveries
+EBJ_Insurance,ActaEDW,Sales
+EBJ_CRM,WdyPOS,OTS Order
+ActaWeb,ActaComp,Marketing Plans
+ActaProdID,WdySales,Revenue
+ActaProdID,EBJ_Security,Item Hierarchy
+ActaHR,ActaStore,Cost
+ActaCoupons,ActaAcctDM,Employee
+WdyPOS,ActaMktng,Product Case
+ActaComp,ActaPharm,Authorization Data
+ActaReport,FRWN-POS,Campaign
+ActaPay,WdyPOS,Item Detail
+ActaFresh,ActaCoupons,Order
+EBJ_POSHOSTED,ActaWHSE,Case
+ActaFresh,FRWN-POS,Unit
+ActaLink,ActaEDW,OTS Item
+ActaODS,ActaMktng,Price Change
+EBJ_POSHOSTED,ActaData,Site
+EBJ_Insurance,ActaEDW,Marketing Plans
+WdyPOS,ActaCoupons,Cost
+EBJ_Insurance,ActaMfg,Unit
+ActaPay,ActaFuel,Price History
+ActaWeb,WdySales,OrderDetail
+ActaSched,EBJ_Purchasing,Order
+WdyLoyalty,EBJ_CRM,Offer
+ActaPlan,WdyMktng,Allocation
+ActaMfg,ActaEDW,OTS Item
+ActaData,WdySales,Contract
+ActaStoreLoc,ActaData,Allocation
+ActaMfg,ActaODS,Whse-Case
+ActaPromise,EBJ_POSHOSTED,Employee
+EBJ_Insurance,ActaComp,Customer
+ActaHR,ActaPromise,Division
+ActaPointMain,EBJ_POSHOSTED,Whse-Case
+WdySales,EBJ_POSHOSTED,Timesheet
+ActaPharm,FRWN-Time,Authorization Overide
+ActaFuel,ActaCS,Web-Log
+ActaODS,WdySales,Price History
+ActaData,ActaAcctDM,Unit
+ActaPlan,ActaReport,Whse-Case
+FRWN-POS,ActaCoupons,Price History
+EBJ_POSHOSTED,EBJ_CRM,Cost
+ActaWHSE,WdyLoyalty,Division
+ActaCS,EBJ_Insurance,Scanner
+WdySales,ActaLink,Promotion
+ActaPay,ActaAcctDM,Authorization
+ActaPointStore,ActaPromise,Timesheet
+FRWN-Time,EBJ_POSHOSTED,OTS Billing
+FRWN-Xfer,ActaHR,Store Deliveries
+FRWN-Xfer,ActaBenefits,Web-Log
+EBJ_Security,ActaWeb,Item Detail
+ActaBenefits,ActaWHSE,Timesheet
+EBJ_POS,ActaEDW,Customer
+ActaWeb,ActaCS,Whse-Case
+ActaFlour,ActaPointMain,Employee
+ActaAcctDM,ActaCS,OTS
+FRWN-POS,ActaPharm,Item Detail
+ActaMktng,ActaPointStore,Case
+ActaStoreLoc,ActaBenefits,Campaign
+EBJ_CRM,EBJ_POS,Contract
+ActaFin,FRWN-POS,Vendor
+WdyPOS,ActaBilling,OTS Billing
+ActaFuel,WdyLoyalty,Authorization
+EBJ_Security,ActaPointMain,OTS Order
+EBJ_Purchasing,ActaStoreLoc,OTS Order
+ActaPointMain,ActaFuel,Location
+EBJ_Purchasing,WdyTime,Product Case
+ActaLink,ActaFuel,Price Data
+ActaStoreLoc,ActaHR,Order
+ActaFresh,ActaPointMain,Price History
+ActaFlour,EBJ_POSHOSTED,Revenue
+ActaHR,ActaSched,Case
+ActaStore,WdyTime,Division
+ActaLink,ActaPlan,Item Hierarchy
+ActaKronos,EBJ_BIO,Site
+ActaKronos,ActaPromise,Authorization Data
+ActaHR,EBJ_Purchasing,OTS Vendor
+ActaMktng,ActaMobile,Cost
+ActaWeb,ActaFin,Sales Plans
+WdyMktng,ActaFlour,Authorization Data
+ActaPharm,ActaWeb,Store Catalog
+ActaBilling,ActaMktng,Purchase
+ActaWeb,ActaKronos,Unit
+ActaFlour,ActaProdID,Basket
+ActaStore,ActaFresh,Coupon
+ActaPointStore,ActaWHSE,Item Hierarchy
+ActaMobile,ActaProdID,Product
+EBJ_Purchasing,ActaMfg,Authorization Overide
+ActaEDW,EBJ_CRM,Price Data
+ActaPointStore,ActaReport,Warehouse Shipping
+ActaEDW,ActaPay,Employee
+ActaCS,WdyPurchasing,Revenue
+ActaPay,WdyPOS,Basket
+ActaODS,ActaLink,Contract
+ActaPay,ActaHR,Ingredient
+EBJ_Purchasing,WdySales,Case
+ActaWeb,FRWN-POS,Employee
+EBJ_Security,ActaStore,Campaign
+ActaMfg,EBJ_BIO,Contract
+EBJ_Purchasing,ActaStoreLoc,Customer
+ActaMktng,FRWN-Time,Site
+ActaCoupons,WdyTime,Coupon
+ActaData,ActaPointMain,Sales Plans
+ActaPlan,ActaBenefits,Authorization Overide
+EBJ_POSHOSTED,EBJ_Purchasing,Marketing Plans
+ActaPointStore,ActaPay,Price Data
+ActaAcctDM,ActaPointStore,Coupon
+ActaPharm,ActaKronos,Coupon
+ActaCS,WdyLoyalty,Deal
+WdySales,ActaPharm,Product Case
+ActaStore,FRWN-ERP,Store Inventory
+ActaFlour,WdyPOS,Product Case
+ActaStore,ActaData,Warehouse Order
+ActaData,WdyPOS,OrderDetail
+ActaFlour,ActaMfg,Employee
+ActaLink,FRWN-POS,Price Change
+ActaData,ActaBenefits,Warehouse Order
+EBJ_Purchasing,ActaProdID,Sales Plans
+FRWN-ERP,WdyPurchasing,OTS Vendor
+ActaAcctDM,WdyLoyalty,Coupon
+ActaODS,ActaFuel,Cost
+ActaCoupons,ActaPointStore,Whse-Case
+FRWN-POS,ActaReport,Authorization
+ActaPromise,WdySales,Promotion
+ActaWHSE,ActaStore,Case
+EBJ_Security,ActaFresh,Product Case
+ActaHR,WdyTime,Item Hierarchy
+ActaData,ActaWeb,Item Master
+WdySales,ActaPlan,Item Hierarchy
+ActaStore,ActaFlour,OTS
+ActaMfg,ActaData,Contract
+ActaEDW,EBJ_BIO,Unit
+ActaData,ActaKronos,Basket
+ActaPromise,EBJ_Purchasing,Campaign
+WdyPurchasing,ActaPay,Consumer
+ActaWeb,ActaStoreLoc,Consumer Case
+ActaBenefits,ActaPlan,Consumer
+ActaBilling,FRWN-POS,OTS Cost
+ActaAcctDM,ActaODS,Campaign
+ActaMktng,ActaPromise,Allocation
+ActaReport,ActaFresh,Item Hierarchy
+ActaPointMain,EBJ_BIO,BOL
+ActaHR,FRWN-POS,Store Inventory
+ActaHR,ActaData,Price Change
+WdyTime,EBJ_Insurance,Unit
+ActaCS,ActaPlan,Pack
+FRWN-ERP,EBJ_BIO,Store Inventory
+ActaSched,ActaStoreLoc,Price Change
+ActaPharm,ActaODS,Price History
+FRWN-ERP,ActaProdID,OTS Billing
+ActaCoupons,WdyTime,Promotion
+ActaAcctDM,WdySales,Scanner
+FRWN-Time,ActaStoreLoc,Price Data
+FRWN-Xfer,WdySales,Location
+EBJ_BIO,ActaFuel,Price Data
+ActaAcctDM,WdyPOS,Item Master
+WdyLoyalty,ActaODS,Promotion
+ActaPharm,ActaWHSE,Item Hierarchy
+ActaDist,ActaEDW,OTS
+ActaPharm,ActaEDW,Price History
+ActaMktng,EBJ_POS,Item Hierarchy
+WdyLoyalty,ActaWHSE,Contract
+ActaStoreLoc,ActaEDW,Item Detail
+ActaCoupons,ActaComp,Price Data
+FRWN-POS,ActaComp,Authorization Overide
+EBJ_CRM,EBJ_Security,Consumer Case
+ActaProdID,WdyPOS,Warehouse Delivery
+ActaPromise,FRWN-Time,DeliveryTruck
+ActaPay,ActaStore,Authorization
+ActaHR,EBJ_POSHOSTED,Promotion
+ActaStore,ActaMktng,Item Master
+FRWN-ERP,ActaHR,Case
+FRWN-Time,ActaEDW,Case
+ActaFuel,EBJ_POSHOSTED,OTS Order
+ActaPay,WdySales,Web-Log
+ActaSched,ActaEDW,Basket
+ActaWHSE,ActaPromise,Ingredient
+WdyLoyalty,WdySales,OTS Order
+ActaFuel,WdyMktng,Store Catalog
+ActaKronos,ActaBilling,Authorization Data
+ActaBilling,EBJ_CRM,OrderDetail
