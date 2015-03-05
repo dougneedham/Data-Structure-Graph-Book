@@ -166,7 +166,7 @@ ActaBenefits,ActaPointStore,OTS
 ActaBenefits,ActaPointStore,OTS Item
 ActaBenefits,ActaPointStore,Product
 ActaBenefits,ActaPointStore,Web-Log
-ActaBenefits,ActaPointStore,Whse-Case
+ActaBenefits,ActaPointStore,WarehouseCase
 ActaBenefits,ActaProdID,Contract
 ActaBenefits,ActaProdID,Item Hierarchy
 ActaBenefits,ActaProdID,Order
@@ -305,7 +305,7 @@ ActaComp,ActaBilling,OTS
 ActaComp,ActaCoupons,OTS
 ActaComp,ActaCoupons,Site
 ActaComp,ActaCoupons,Warehoust Dist
-ActaComp,ActaCoupons,Whse-Case
+ActaComp,ActaCoupons,WarehouseCase
 ActaComp,ActaCS,Sales
 ActaComp,ActaData,Coupon
 ActaComp,ActaData,Department
@@ -387,7 +387,7 @@ ActaComp,ActaProdID,Store Inventory
 ActaComp,ActaPromise,BOL
 ActaComp,ActaPromise,Product
 ActaComp,ActaPromise,Site
-ActaComp,ActaPromise,Whse-Case
+ActaComp,ActaPromise,WarehouseCase
 ActaComp,ActaReport,Product Case
 ActaComp,ActaSched,Division
 ActaComp,ActaSched,Order
@@ -496,7 +496,7 @@ ActaCoupons,ActaPointMain,Store Inventory
 ActaCoupons,ActaPointStore,Customer
 ActaCoupons,ActaPointStore,Item Master
 ActaCoupons,ActaPointStore,OTS Item
-ActaCoupons,ActaPointStore,Whse-Case
+ActaCoupons,ActaPointStore,WarehouseCase
 ActaCoupons,ActaProdID,Employee
 ActaCoupons,ActaProdID,Price History
 ActaCoupons,ActaProdID,Promotion
@@ -608,7 +608,7 @@ ActaCS,ActaStoreLoc,Authorization Overide
 ActaCS,ActaStoreLoc,DeliveryTruck
 ActaCS,ActaStoreLoc,Division
 ActaCS,ActaWeb,Web-Log
-ActaCS,ActaWeb,Whse-Case
+ActaCS,ActaWeb,WarehouseCase
 ActaCS,ActaWHSE,Product Case
 ActaCS,ActaWHSE,Sales Plans
 ActaCS,EBJ_Security,Location
@@ -653,7 +653,7 @@ ActaData,ActaFresh,Authorization Data
 ActaData,ActaFresh,Customer
 ActaData,ActaFresh,OTS
 ActaData,ActaFresh,Revenue
-ActaData,ActaFresh,Whse-Case
+ActaData,ActaFresh,WarehouseCase
 ActaData,ActaFuel,Marketing Plans
 ActaData,ActaHR,Order
 ActaData,ActaHR,OTS Item
@@ -701,7 +701,7 @@ ActaData,ActaProdID,Store Inventory
 ActaData,ActaProdID,Unit
 ActaData,ActaPromise,Price Data
 ActaData,ActaPromise,Timesheet
-ActaData,ActaPromise,Whse-Case
+ActaData,ActaPromise,WarehouseCase
 ActaData,ActaReport,Order
 ActaData,ActaReport,OrderDetail
 ActaData,ActaReport,Pack
@@ -740,7 +740,7 @@ ActaDist,ActaComp,Product
 ActaDist,ActaCoupons,DeliveryTruck
 ActaDist,ActaCoupons,Employee
 ActaDist,ActaCoupons,Product
-ActaDist,ActaCoupons,Whse-Case
+ActaDist,ActaCoupons,WarehouseCase
 ActaDist,ActaCS,Scanner
 ActaDist,ActaData,Consumer
 ActaDist,ActaData,Pack
@@ -841,7 +841,7 @@ ActaEDW,ActaData,Sales Plans
 ActaEDW,ActaData,Unit
 ActaEDW,ActaDist,Authorization Overide
 ActaEDW,ActaDist,Web-Log
-ActaEDW,ActaDist,Whse-Case
+ActaEDW,ActaDist,WarehouseCase
 ActaEDW,ActaFin,Pack
 ActaEDW,ActaFlour,Basket
 ActaEDW,ActaFlour,Marketing Plans
@@ -920,7 +920,7 @@ ActaEDW,ActaWHSE,Consumer Case
 ActaEDW,ActaWHSE,DeliveryTruck
 ActaEDW,ActaWHSE,Employee
 ActaEDW,ActaWHSE,Unit
-ActaEDW,ActaWHSE,Whse-Case
+ActaEDW,ActaWHSE,WarehouseCase
 ActaFin,ActaAcctDM,Cost
 ActaFin,ActaBilling,Basket
 ActaFin,ActaBilling,Consumer Case
@@ -941,7 +941,7 @@ ActaFin,ActaData,Deal
 ActaFin,ActaDist,OrderDetail
 ActaFin,ActaDist,Sales Plans
 ActaFin,ActaDist,Warehouse Shipping
-ActaFin,ActaDist,Whse-Case
+ActaFin,ActaDist,WarehouseCase
 ActaFin,ActaEDW,Item Master
 ActaFin,ActaEDW,Scanner
 ActaFin,ActaEDW,Web-Log
@@ -967,7 +967,7 @@ ActaFin,ActaMktng,Authorization Overide
 ActaFin,ActaMktng,OTS Cost
 ActaFin,ActaMktng,Store Inventory
 ActaFin,ActaMktng,Warehouse Delivery
-ActaFin,ActaMktng,Whse-Case
+ActaFin,ActaMktng,WarehouseCase
 ActaFin,ActaMobile,Authorization
 ActaFin,ActaMobile,Employee
 ActaFin,ActaMobile,OTS Vendor
@@ -1140,7 +1140,7 @@ ActaFresh,ActaDist,DeliveryTruck
 ActaFresh,ActaDist,OTS Item
 ActaFresh,ActaDist,Price Change
 ActaFresh,ActaDist,Promotion
-ActaFresh,ActaDist,Whse-Case
+ActaFresh,ActaDist,WarehouseCase
 ActaFresh,ActaEDW,Coupon
 ActaFresh,ActaEDW,Department
 ActaFresh,ActaFin,Authorization Data
@@ -1229,7 +1229,7 @@ ActaFuel,ActaEDW,Consumer Case
 ActaFuel,ActaEDW,OrderDetail
 ActaFuel,ActaEDW,Price Change
 ActaFuel,ActaEDW,Revenue
-ActaFuel,ActaEDW,Whse-Case
+ActaFuel,ActaEDW,WarehouseCase
 ActaFuel,ActaFin,Authorization Data
 ActaFuel,ActaFin,Case
 ActaFuel,ActaFin,Marketing Plans
@@ -1251,7 +1251,7 @@ ActaFuel,ActaMfg,Item Master
 ActaFuel,ActaMfg,OTS Vendor
 ActaFuel,ActaMfg,Sales Plans
 ActaFuel,ActaMfg,Warehouse Delivery
-ActaFuel,ActaMfg,Whse-Case
+ActaFuel,ActaMfg,WarehouseCase
 ActaFuel,ActaMktng,Division
 ActaFuel,ActaMktng,Sales
 ActaFuel,ActaMobile,Deal
@@ -1264,7 +1264,7 @@ ActaFuel,ActaODS,Warehouse Delivery
 ActaFuel,ActaPay,Order
 ActaFuel,ActaPharm,Allocation
 ActaFuel,ActaPharm,Warehouse Delivery
-ActaFuel,ActaPharm,Whse-Case
+ActaFuel,ActaPharm,WarehouseCase
 ActaFuel,ActaPlan,Allocation
 ActaFuel,ActaPlan,OTS Vendor
 ActaFuel,ActaPlan,Web-Log
@@ -1282,7 +1282,7 @@ ActaFuel,ActaProdID,Unit
 ActaFuel,ActaProdID,Warehouse Delivery
 ActaFuel,ActaPromise,Campaign
 ActaFuel,ActaPromise,Price History
-ActaFuel,ActaPromise,Whse-Case
+ActaFuel,ActaPromise,WarehouseCase
 ActaFuel,ActaReport,Cost
 ActaFuel,ActaReport,Pack
 ActaFuel,ActaReport,Promotion
@@ -1350,7 +1350,7 @@ ActaHR,ActaMktng,Price Change
 ActaHR,ActaMktng,Purchase
 ActaHR,ActaMktng,Scanner
 ActaHR,ActaMobile,OTS Order
-ActaHR,ActaMobile,Whse-Case
+ActaHR,ActaMobile,WarehouseCase
 ActaHR,ActaODS,Campaign
 ActaHR,ActaODS,Department
 ActaHR,ActaPay,Campaign
@@ -1442,7 +1442,7 @@ ActaKronos,ActaMobile,Timesheet
 ActaKronos,ActaODS,Case
 ActaKronos,ActaODS,DeliveryTruck
 ActaKronos,ActaODS,Site
-ActaKronos,ActaODS,Whse-Case
+ActaKronos,ActaODS,WarehouseCase
 ActaKronos,ActaPay,Basket
 ActaKronos,ActaPay,Case
 ActaKronos,ActaPay,OTS Item
@@ -1486,12 +1486,12 @@ ActaKronos,ActaStoreLoc,Price Change
 ActaKronos,ActaStoreLoc,Promotion
 ActaKronos,ActaStoreLoc,Sales
 ActaKronos,ActaStoreLoc,Web-Log
-ActaKronos,ActaStoreLoc,Whse-Case
+ActaKronos,ActaStoreLoc,WarehouseCase
 ActaKronos,ActaWeb,Division
 ActaKronos,ActaWeb,OTS
 ActaKronos,ActaWeb,OTS Vendor
 ActaKronos,ActaWeb,Store Inventory
-ActaKronos,ActaWeb,Whse-Case
+ActaKronos,ActaWeb,WarehouseCase
 ActaKronos,ActaWHSE,Contract
 ActaKronos,ActaWHSE,Department
 ActaKronos,ActaWHSE,Promotion
@@ -1536,7 +1536,7 @@ ActaLink,ActaDist,Site
 ActaLink,ActaFlour,Case
 ActaLink,ActaFlour,Item Hierarchy
 ActaLink,ActaFlour,Web-Log
-ActaLink,ActaFlour,Whse-Case
+ActaLink,ActaFlour,WarehouseCase
 ActaLink,ActaFresh,Consumer Case
 ActaLink,ActaFresh,Store Deliveries
 ActaLink,ActaFresh,Web-Log
@@ -1660,14 +1660,14 @@ ActaMfg,ActaKronos,Offer
 ActaMfg,ActaKronos,OTS
 ActaMfg,ActaKronos,Store Inventory
 ActaMfg,ActaKronos,Warehouse Shipping
-ActaMfg,ActaKronos,Whse-Case
+ActaMfg,ActaKronos,WarehouseCase
 ActaMfg,ActaLink,Consumer Case
 ActaMfg,ActaLink,Price Change
 ActaMfg,ActaLink,Sales
 ActaMfg,ActaMktng,Case
 ActaMfg,ActaMktng,OTS Item
 ActaMfg,ActaMktng,Unit
-ActaMfg,ActaMktng,Whse-Case
+ActaMfg,ActaMktng,WarehouseCase
 ActaMfg,ActaMobile,Consumer Case
 ActaMfg,ActaMobile,OTS Billing
 ActaMfg,ActaMobile,Vendor
@@ -1717,7 +1717,7 @@ ActaMktng,ActaBilling,OTS Billing
 ActaMktng,ActaComp,Authorization Data
 ActaMktng,ActaComp,Timesheet
 ActaMktng,ActaComp,Web-Log
-ActaMktng,ActaComp,Whse-Case
+ActaMktng,ActaComp,WarehouseCase
 ActaMktng,ActaCoupons,Deal
 ActaMktng,ActaCoupons,Item Hierarchy
 ActaMktng,ActaCoupons,OTS Order
@@ -1743,7 +1743,7 @@ ActaMktng,ActaFresh,Unit
 ActaMktng,ActaFuel,Consumer
 ActaMktng,ActaFuel,Store Deliveries
 ActaMktng,ActaFuel,Vendor
-ActaMktng,ActaFuel,Whse-Case
+ActaMktng,ActaFuel,WarehouseCase
 ActaMktng,ActaHR,OTS Cost
 ActaMktng,ActaHR,Warehouse Delivery
 ActaMktng,ActaKronos,Consumer
@@ -1768,7 +1768,7 @@ ActaMktng,ActaPay,OrderDetail
 ActaMktng,ActaPharm,Authorization Overide
 ActaMktng,ActaPharm,Campaign
 ActaMktng,ActaPharm,Timesheet
-ActaMktng,ActaPharm,Whse-Case
+ActaMktng,ActaPharm,WarehouseCase
 ActaMktng,ActaPlan,Contract
 ActaMktng,ActaPlan,DeliveryTruck
 ActaMktng,ActaPointMain,Employee
@@ -1848,7 +1848,7 @@ ActaMobile,ActaFresh,Warehouse Order
 ActaMobile,ActaFuel,Cost
 ActaMobile,ActaFuel,Customer
 ActaMobile,ActaFuel,Price History
-ActaMobile,ActaFuel,Whse-Case
+ActaMobile,ActaFuel,WarehouseCase
 ActaMobile,ActaHR,Campaign
 ActaMobile,ActaHR,Deal
 ActaMobile,ActaHR,Ingredient
@@ -1939,7 +1939,7 @@ ActaODS,ActaFin,OTS Cost
 ActaODS,ActaFin,Site
 ActaODS,ActaFin,Warehouse Order
 ActaODS,ActaFin,Warehouse Shipping
-ActaODS,ActaFin,Whse-Case
+ActaODS,ActaFin,WarehouseCase
 ActaODS,ActaFlour,DeliveryTruck
 ActaODS,ActaFlour,Warehouse Order
 ActaODS,ActaFlour,Warehoust Dist
@@ -2003,7 +2003,7 @@ ActaODS,ActaSched,OTS Billing
 ActaODS,ActaSched,Price Change
 ActaODS,ActaSched,Purchase
 ActaODS,ActaSched,Revenue
-ActaODS,ActaSched,Whse-Case
+ActaODS,ActaSched,WarehouseCase
 ActaODS,ActaStore,Item Master
 ActaODS,ActaStore,Unit
 ActaODS,ActaStoreLoc,Site
@@ -2014,7 +2014,7 @@ ActaPay,ActaAcctDM,Consumer Case
 ActaPay,ActaAcctDM,Contract
 ActaPay,ActaBenefits,Offer
 ActaPay,ActaBenefits,Purchase
-ActaPay,ActaBenefits,Whse-Case
+ActaPay,ActaBenefits,WarehouseCase
 ActaPay,ActaBilling,Product Case
 ActaPay,ActaBilling,Warehouse Order
 ActaPay,ActaComp,Authorization Data
@@ -2044,7 +2044,7 @@ ActaPay,ActaDist,Store Deliveries
 ActaPay,ActaEDW,Deal
 ActaPay,ActaEDW,Product Case
 ActaPay,ActaEDW,Warehouse Order
-ActaPay,ActaEDW,Whse-Case
+ActaPay,ActaEDW,WarehouseCase
 ActaPay,ActaFin,Cost
 ActaPay,ActaFin,OTS
 ActaPay,ActaFin,Revenue
@@ -2067,7 +2067,7 @@ ActaPay,ActaMfg,Item Master
 ActaPay,ActaMfg,Marketing Plans
 ActaPay,ActaMfg,Price History
 ActaPay,ActaMfg,Product Case
-ActaPay,ActaMfg,Whse-Case
+ActaPay,ActaMfg,WarehouseCase
 ActaPay,ActaMktng,Coupon
 ActaPay,ActaMktng,Ingredient
 ActaPay,ActaMktng,OTS Billing
@@ -2085,14 +2085,14 @@ ActaPay,ActaPharm,Basket
 ActaPay,ActaPlan,Campaign
 ActaPay,ActaPlan,Item Master
 ActaPay,ActaPlan,Marketing Plans
-ActaPay,ActaPlan,Whse-Case
+ActaPay,ActaPlan,WarehouseCase
 ActaPay,ActaPointMain,Contract
 ActaPay,ActaPointMain,Division
 ActaPay,ActaPointMain,OTS Item
 ActaPay,ActaPointStore,Warehouse Delivery
 ActaPay,ActaProdID,Consumer
 ActaPay,ActaProdID,Price Change
-ActaPay,ActaProdID,Whse-Case
+ActaPay,ActaProdID,WarehouseCase
 ActaPay,ActaPromise,BOL
 ActaPay,ActaPromise,Customer
 ActaPay,ActaPromise,Marketing Plans
@@ -2129,7 +2129,7 @@ ActaPharm,ActaAcctDM,Deal
 ActaPharm,ActaAcctDM,Purchase
 ActaPharm,ActaAcctDM,Store Inventory
 ActaPharm,ActaAcctDM,Timesheet
-ActaPharm,ActaAcctDM,Whse-Case
+ActaPharm,ActaAcctDM,WarehouseCase
 ActaPharm,ActaBenefits,Consumer
 ActaPharm,ActaBenefits,Department
 ActaPharm,ActaBilling,Employee
@@ -2157,12 +2157,12 @@ ActaPharm,ActaDist,Offer
 ActaPharm,ActaDist,Scanner
 ActaPharm,ActaDist,Site
 ActaPharm,ActaEDW,Order
-ActaPharm,ActaEDW,Whse-Case
+ActaPharm,ActaEDW,WarehouseCase
 ActaPharm,ActaFin,Case
 ActaPharm,ActaFlour,Consumer Case
 ActaPharm,ActaFlour,Cost
 ActaPharm,ActaFlour,Warehoust Dist
-ActaPharm,ActaFlour,Whse-Case
+ActaPharm,ActaFlour,WarehouseCase
 ActaPharm,ActaFresh,Item Hierarchy
 ActaPharm,ActaFresh,OTS
 ActaPharm,ActaFuel,Item Master
@@ -2191,7 +2191,7 @@ ActaPharm,ActaPay,Timesheet
 ActaPharm,ActaPlan,Store Catalog
 ActaPharm,ActaPointMain,Cost
 ActaPharm,ActaPointMain,OTS Cost
-ActaPharm,ActaPointMain,Whse-Case
+ActaPharm,ActaPointMain,WarehouseCase
 ActaPharm,ActaPointStore,Product Case
 ActaPharm,ActaProdID,Authorization
 ActaPharm,ActaProdID,Ingredient
@@ -2206,7 +2206,7 @@ ActaPharm,ActaReport,Warehoust Dist
 ActaPharm,ActaSched,Case
 ActaPharm,ActaSched,Marketing Plans
 ActaPharm,ActaSched,Revenue
-ActaPharm,ActaSched,Whse-Case
+ActaPharm,ActaSched,WarehouseCase
 ActaPharm,ActaStore,Case
 ActaPharm,ActaStore,Sales Plans
 ActaPharm,ActaStoreLoc,Department
@@ -2257,17 +2257,17 @@ ActaPlan,ActaFuel,Pack
 ActaPlan,ActaHR,Customer
 ActaPlan,ActaHR,Offer
 ActaPlan,ActaHR,OTS
-ActaPlan,ActaHR,Whse-Case
+ActaPlan,ActaHR,WarehouseCase
 ActaPlan,ActaKronos,Price Data
 ActaPlan,ActaKronos,Store Inventory
-ActaPlan,ActaKronos,Whse-Case
+ActaPlan,ActaKronos,WarehouseCase
 ActaPlan,ActaLink,Authorization
 ActaPlan,ActaLink,Store Inventory
 ActaPlan,ActaLink,Unit
 ActaPlan,ActaMfg,Authorization
 ActaPlan,ActaMfg,Authorization Overide
 ActaPlan,ActaMfg,Employee
-ActaPlan,ActaMfg,Whse-Case
+ActaPlan,ActaMfg,WarehouseCase
 ActaPlan,ActaMktng,Authorization Overide
 ActaPlan,ActaMktng,Item Hierarchy
 ActaPlan,ActaMktng,OTS Billing
@@ -2433,7 +2433,7 @@ ActaPointStore,ActaCoupons,Ingredient
 ActaPointStore,ActaCoupons,Order
 ActaPointStore,ActaCS,Authorization Overide
 ActaPointStore,ActaCS,Store Deliveries
-ActaPointStore,ActaCS,Whse-Case
+ActaPointStore,ActaCS,WarehouseCase
 ActaPointStore,ActaDist,Authorization
 ActaPointStore,ActaDist,Authorization Overide
 ActaPointStore,ActaDist,Department
@@ -2469,7 +2469,7 @@ ActaPointStore,ActaMobile,Sales
 ActaPointStore,ActaODS,Department
 ActaPointStore,ActaODS,Product Case
 ActaPointStore,ActaODS,Unit
-ActaPointStore,ActaODS,Whse-Case
+ActaPointStore,ActaODS,WarehouseCase
 ActaPointStore,ActaPay,Allocation
 ActaPointStore,ActaPay,Case
 ActaPointStore,ActaPay,Price History
@@ -2491,7 +2491,7 @@ ActaPointStore,ActaProdID,Timesheet
 ActaPointStore,ActaPromise,Basket
 ActaPointStore,ActaPromise,Item Master
 ActaPointStore,ActaPromise,Pack
-ActaPointStore,ActaPromise,Whse-Case
+ActaPointStore,ActaPromise,WarehouseCase
 ActaPointStore,ActaReport,Store Inventory
 ActaPointStore,ActaReport,Web-Log
 ActaPointStore,ActaSched,Authorization Data
@@ -2538,7 +2538,7 @@ ActaProdID,ActaDist,Employee
 ActaProdID,ActaEDW,Revenue
 ActaProdID,ActaEDW,Scanner
 ActaProdID,ActaEDW,Warehouse Order
-ActaProdID,ActaEDW,Whse-Case
+ActaProdID,ActaEDW,WarehouseCase
 ActaProdID,ActaFin,Authorization Overide
 ActaProdID,ActaFin,BOL
 ActaProdID,ActaFin,Contract
@@ -2562,7 +2562,7 @@ ActaProdID,ActaMfg,Campaign
 ActaProdID,ActaMfg,Location
 ActaProdID,ActaMfg,OrderDetail
 ActaProdID,ActaMfg,Unit
-ActaProdID,ActaMfg,Whse-Case
+ActaProdID,ActaMfg,WarehouseCase
 ActaProdID,ActaMktng,Basket
 ActaProdID,ActaMktng,Deal
 ActaProdID,ActaMktng,Department
@@ -2620,7 +2620,7 @@ ActaProdID,ActaStoreLoc,Allocation
 ActaProdID,ActaStoreLoc,Basket
 ActaProdID,ActaStoreLoc,OTS Billing
 ActaProdID,ActaStoreLoc,Purchase
-ActaProdID,ActaStoreLoc,Whse-Case
+ActaProdID,ActaStoreLoc,WarehouseCase
 ActaProdID,ActaWeb,Location
 ActaProdID,ActaWeb,Price Data
 ActaProdID,ActaWeb,Purchase
@@ -2632,7 +2632,7 @@ ActaPromise,ActaAcctDM,Item Detail
 ActaPromise,ActaBenefits,Department
 ActaPromise,ActaBenefits,Sales Plans
 ActaPromise,ActaBenefits,Vendor
-ActaPromise,ActaBenefits,Whse-Case
+ActaPromise,ActaBenefits,WarehouseCase
 ActaPromise,ActaBilling,Contract
 ActaPromise,ActaComp,OTS Vendor
 ActaPromise,ActaComp,Price History
@@ -2666,7 +2666,7 @@ ActaPromise,ActaKronos,Authorization Data
 ActaPromise,ActaKronos,Contract
 ActaPromise,ActaKronos,Revenue
 ActaPromise,ActaKronos,Warehoust Dist
-ActaPromise,ActaKronos,Whse-Case
+ActaPromise,ActaKronos,WarehouseCase
 ActaPromise,ActaLink,Scanner
 ActaPromise,ActaLink,Warehouse Shipping
 ActaPromise,ActaMfg,DeliveryTruck
@@ -2777,7 +2777,7 @@ ActaReport,ActaMfg,Authorization Data
 ActaReport,ActaMfg,Consumer
 ActaReport,ActaMfg,Scanner
 ActaReport,ActaMfg,Warehouse Order
-ActaReport,ActaMfg,Whse-Case
+ActaReport,ActaMfg,WarehouseCase
 ActaReport,ActaMktng,Item Hierarchy
 ActaReport,ActaMktng,Promotion
 ActaReport,ActaMktng,Sales Plans
@@ -2804,14 +2804,14 @@ ActaReport,ActaPharm,Warehouse Order
 ActaReport,ActaPharm,Web-Log
 ActaReport,ActaPlan,Contract
 ActaReport,ActaPlan,Ingredient
-ActaReport,ActaPlan,Whse-Case
+ActaReport,ActaPlan,WarehouseCase
 ActaReport,ActaPointMain,Item Master
 ActaReport,ActaPointMain,OrderDetail
 ActaReport,ActaPointMain,Price Change
 ActaReport,ActaPointMain,Revenue
 ActaReport,ActaPointMain,Scanner
 ActaReport,ActaPointMain,Store Inventory
-ActaReport,ActaPointMain,Whse-Case
+ActaReport,ActaPointMain,WarehouseCase
 ActaReport,ActaPointStore,Basket
 ActaReport,ActaPointStore,Employee
 ActaReport,ActaProdID,Authorization Data
@@ -2845,7 +2845,7 @@ ActaSched,ActaAcctDM,Campaign
 ActaSched,ActaAcctDM,Contract
 ActaSched,ActaAcctDM,Purchase
 ActaSched,ActaBenefits,Warehouse Order
-ActaSched,ActaBenefits,Whse-Case
+ActaSched,ActaBenefits,WarehouseCase
 ActaSched,ActaBilling,Cost
 ActaSched,ActaBilling,Sales
 ActaSched,ActaBilling,Warehouse Order
@@ -2913,7 +2913,7 @@ ActaSched,ActaPointStore,Offer
 ActaSched,ActaPointStore,Revenue
 ActaSched,ActaProdID,Price Data
 ActaSched,ActaProdID,Timesheet
-ActaSched,ActaProdID,Whse-Case
+ActaSched,ActaProdID,WarehouseCase
 ActaSched,ActaPromise,Authorization
 ActaSched,ActaPromise,Product
 ActaSched,ActaReport,OTS Cost
@@ -2946,7 +2946,7 @@ ActaStore,ActaBenefits,Location
 ActaStore,ActaBenefits,OTS Cost
 ActaStore,ActaBenefits,Price Data
 ActaStore,ActaBenefits,Product Case
-ActaStore,ActaBenefits,Whse-Case
+ActaStore,ActaBenefits,WarehouseCase
 ActaStore,ActaBilling,Contract
 ActaStore,ActaBilling,OTS Billing
 ActaStore,ActaBilling,Store Deliveries
@@ -2962,7 +2962,7 @@ ActaStore,ActaData,Promotion
 ActaStore,ActaDist,OrderDetail
 ActaStore,ActaDist,OTS Item
 ActaStore,ActaDist,Promotion
-ActaStore,ActaDist,Whse-Case
+ActaStore,ActaDist,WarehouseCase
 ActaStore,ActaEDW,BOL
 ActaStore,ActaEDW,Unit
 ActaStore,ActaFin,Authorization Data
@@ -2975,7 +2975,7 @@ ActaStore,ActaFresh,Consumer Case
 ActaStore,ActaFresh,Contract
 ActaStore,ActaFresh,Employee
 ActaStore,ActaFresh,Vendor
-ActaStore,ActaFresh,Whse-Case
+ActaStore,ActaFresh,WarehouseCase
 ActaStore,ActaFuel,Allocation
 ActaStore,ActaFuel,Item Master
 ActaStore,ActaFuel,OTS Billing
@@ -2995,7 +2995,7 @@ ActaStore,ActaMfg,OTS Item
 ActaStore,ActaMfg,Product
 ActaStore,ActaMfg,Scanner
 ActaStore,ActaMfg,Web-Log
-ActaStore,ActaMfg,Whse-Case
+ActaStore,ActaMfg,WarehouseCase
 ActaStore,ActaMktng,Case
 ActaStore,ActaMktng,Division
 ActaStore,ActaMktng,Offer
@@ -3081,7 +3081,7 @@ ActaStoreLoc,ActaEDW,Unit
 ActaStoreLoc,ActaFin,Location
 ActaStoreLoc,ActaFin,OTS
 ActaStoreLoc,ActaFin,Store Deliveries
-ActaStoreLoc,ActaFin,Whse-Case
+ActaStoreLoc,ActaFin,WarehouseCase
 ActaStoreLoc,ActaFlour,Item Master
 ActaStoreLoc,ActaFlour,Purchase
 ActaStoreLoc,ActaFuel,Authorization Overide
@@ -3108,7 +3108,7 @@ ActaStoreLoc,ActaODS,Offer
 ActaStoreLoc,ActaODS,OTS Cost
 ActaStoreLoc,ActaODS,Purchase
 ActaStoreLoc,ActaODS,Store Inventory
-ActaStoreLoc,ActaODS,Whse-Case
+ActaStoreLoc,ActaODS,WarehouseCase
 ActaStoreLoc,ActaPay,Deal
 ActaStoreLoc,ActaPay,Order
 ActaStoreLoc,ActaPay,Revenue
@@ -3137,7 +3137,7 @@ ActaStoreLoc,ActaSched,Consumer Case
 ActaStoreLoc,ActaSched,Marketing Plans
 ActaStoreLoc,ActaSched,Unit
 ActaStoreLoc,ActaSched,Warehouse Shipping
-ActaStoreLoc,ActaSched,Whse-Case
+ActaStoreLoc,ActaSched,WarehouseCase
 ActaStoreLoc,ActaStore,Offer
 ActaStoreLoc,ActaStore,Promotion
 ActaStoreLoc,ActaWeb,Location
@@ -3172,7 +3172,7 @@ ActaWeb,ActaData,DeliveryTruck
 ActaWeb,ActaData,OTS Vendor
 ActaWeb,ActaData,Pack
 ActaWeb,ActaData,Price History
-ActaWeb,ActaDist,Whse-Case
+ActaWeb,ActaDist,WarehouseCase
 ActaWeb,ActaEDW,Coupon
 ActaWeb,ActaEDW,Order
 ActaWeb,ActaEDW,OTS Billing
@@ -3183,7 +3183,7 @@ ActaWeb,ActaFin,Coupon
 ActaWeb,ActaFin,OrderDetail
 ActaWeb,ActaFlour,Case
 ActaWeb,ActaFlour,Order
-ActaWeb,ActaFlour,Whse-Case
+ActaWeb,ActaFlour,WarehouseCase
 ActaWeb,ActaFresh,Pack
 ActaWeb,ActaFresh,Warehoust Dist
 ActaWeb,ActaFuel,Case

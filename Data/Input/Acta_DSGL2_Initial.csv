@@ -114,10 +114,10 @@ ActaBenefits,ActaAcctDM,Item Hierarchy
 ActaBenefits,ActaAcctDM,OTS Vendor
 ActaBenefits,ActaAcctDM,Scanner
 ActaBenefits,ActaAcctDM,Warehoust Dist
-ActaBenefits,ActaAcctDM,Whse-Case
+ActaBenefits,ActaAcctDM,WarehouseCase
 ActaBenefits,ActaBilling,Marketing Plans
 ActaBenefits,ActaBilling,Scanner
-ActaBenefits,ActaBilling,Whse-Case
+ActaBenefits,ActaBilling,WarehouseCase
 ActaBenefits,ActaComp,Item Master
 ActaBenefits,ActaCoupons,Authorization Data
 ActaBenefits,ActaCoupons,Contract
@@ -154,7 +154,7 @@ ActaBenefits,ActaODS,Consumer Case
 ActaBenefits,ActaODS,Promotion
 ActaBenefits,ActaODS,Vendor
 ActaBenefits,ActaPay,OTS Vendor
-ActaBenefits,ActaPay,Whse-Case
+ActaBenefits,ActaPay,WarehouseCase
 ActaBenefits,ActaPharm,Department
 ActaBenefits,ActaPharm,Promotion
 ActaBenefits,ActaPharm,Scanner
@@ -176,7 +176,7 @@ ActaBenefits,ActaPromise,Vendor
 ActaBenefits,ActaReport,Price Data
 ActaBenefits,ActaReport,Sales Plans
 ActaBenefits,ActaSched,Scanner
-ActaBenefits,ActaSched,Whse-Case
+ActaBenefits,ActaSched,WarehouseCase
 ActaBenefits,ActaStore,Scanner
 ActaBenefits,ActaStoreLoc,Item Detail
 ActaBenefits,ActaWeb,Site
@@ -220,7 +220,7 @@ ActaBilling,ActaComp,Sales Plans
 ActaBilling,ActaComp,Warehouse Shipping
 ActaBilling,ActaCoupons,Authorization Overide
 ActaBilling,ActaCoupons,Case
-ActaBilling,ActaCoupons,Whse-Case
+ActaBilling,ActaCoupons,WarehouseCase
 ActaBilling,ActaCS,Location
 ActaBilling,ActaData,Consumer
 ActaBilling,ActaData,Division
@@ -262,7 +262,7 @@ ActaBilling,ActaPointStore,Price Change
 ActaBilling,ActaProdID,Deal
 ActaBilling,ActaProdID,Price Data
 ActaBilling,ActaPromise,Price Data
-ActaBilling,ActaPromise,Whse-Case
+ActaBilling,ActaPromise,WarehouseCase
 ActaBilling,ActaSched,Basket
 ActaBilling,ActaSched,BOL
 ActaBilling,ActaSched,Cost
@@ -379,7 +379,7 @@ ActaComp,EBJ_Insurance,Ingredient
 ActaComp,EBJ_Insurance,OTS Cost
 ActaComp,EBJ_Insurance,OTS Item
 ActaComp,EBJ_POS,OrderDetail
-ActaComp,EBJ_POS,Whse-Case
+ActaComp,EBJ_POS,WarehouseCase
 ActaComp,EBJ_POSHOSTED,Basket
 ActaComp,EBJ_POSHOSTED,Location
 ActaComp,EBJ_Purchasing,Promotion
@@ -464,7 +464,7 @@ ActaCoupons,ActaWeb,Web-Log
 ActaCoupons,ActaWHSE,Campaign
 ActaCoupons,ActaWHSE,Revenue
 ActaCoupons,EBJ_BIO,Ingredient
-ActaCoupons,EBJ_BIO,Whse-Case
+ActaCoupons,EBJ_BIO,WarehouseCase
 ActaCoupons,EBJ_CRM,Item Detail
 ActaCoupons,EBJ_CRM,Warehouse Order
 ActaCoupons,EBJ_Insurance,BOL
@@ -587,13 +587,13 @@ ActaCS,EBJ_Purchasing,Authorization Data
 ActaCS,EBJ_Purchasing,Deal
 ActaCS,EBJ_Purchasing,Item Hierarchy
 ActaCS,EBJ_Security,Contract
-ActaCS,EBJ_Security,Whse-Case
+ActaCS,EBJ_Security,WarehouseCase
 ActaCS,FRWN-ERP,Item Hierarchy
 ActaCS,FRWN-ERP,Unit
 ActaCS,FRWN-POS,Department
 ActaCS,FRWN-Xfer,Item Detail
 ActaCS,FRWN-Xfer,Marketing Plans
-ActaCS,FRWN-Xfer,Whse-Case
+ActaCS,FRWN-Xfer,WarehouseCase
 ActaCS,WdyLoyalty,Vendor
 ActaCS,WdyPOS,Revenue
 ActaCS,WdyPOS,Vendor
@@ -730,7 +730,7 @@ ActaDist,ActaKronos,Price History
 ActaDist,ActaLink,Department
 ActaDist,ActaLink,OTS Vendor
 ActaDist,ActaLink,Price Change
-ActaDist,ActaLink,Whse-Case
+ActaDist,ActaLink,WarehouseCase
 ActaDist,ActaMfg,Basket
 ActaDist,ActaMfg,Campaign
 ActaDist,ActaMfg,Cost
@@ -738,7 +738,7 @@ ActaDist,ActaMktng,Consumer Case
 ActaDist,ActaMobile,Web-Log
 ActaDist,ActaODS,Deal
 ActaDist,ActaODS,OrderDetail
-ActaDist,ActaPay,Whse-Case
+ActaDist,ActaPay,WarehouseCase
 ActaDist,ActaPharm,Allocation
 ActaDist,ActaPharm,Product
 ActaDist,ActaPharm,Promotion
@@ -765,7 +765,7 @@ ActaDist,ActaStoreLoc,Timesheet
 ActaDist,ActaWeb,Allocation
 ActaDist,ActaWHSE,Item Hierarchy
 ActaDist,ActaWHSE,Item Master
-ActaDist,EBJ_BIO,Whse-Case
+ActaDist,EBJ_BIO,WarehouseCase
 ActaDist,EBJ_CRM,Authorization Data
 ActaDist,EBJ_Insurance,Deal
 ActaDist,EBJ_Insurance,Employee
@@ -862,7 +862,7 @@ ActaEDW,ActaStore,Store Inventory
 ActaEDW,ActaStoreLoc,Authorization
 ActaEDW,ActaStoreLoc,Cost
 ActaEDW,ActaStoreLoc,OTS Item
-ActaEDW,ActaStoreLoc,Whse-Case
+ActaEDW,ActaStoreLoc,WarehouseCase
 ActaEDW,ActaWeb,DeliveryTruck
 ActaEDW,ActaWHSE,Item Detail
 ActaEDW,ActaWHSE,Location
@@ -880,7 +880,7 @@ ActaEDW,EBJ_POSHOSTED,Cost
 ActaEDW,EBJ_POSHOSTED,Pack
 ActaEDW,EBJ_Purchasing,Item Detail
 ActaEDW,EBJ_Purchasing,Item Master
-ActaEDW,EBJ_Security,Whse-Case
+ActaEDW,EBJ_Security,WarehouseCase
 ActaEDW,FRWN-ERP,Site
 ActaEDW,FRWN-Xfer,Customer
 ActaEDW,WdyLoyalty,Authorization Data
@@ -966,7 +966,7 @@ ActaFin,EBJ_Security,Warehouse Order
 ActaFin,FRWN-ERP,Revenue
 ActaFin,FRWN-ERP,Site
 ActaFin,FRWN-POS,Customer
-ActaFin,FRWN-POS,Whse-Case
+ActaFin,FRWN-POS,WarehouseCase
 ActaFin,FRWN-Time,Authorization Data
 ActaFin,FRWN-Time,Warehouse Delivery
 ActaFin,FRWN-Xfer,Authorization
@@ -1016,9 +1016,9 @@ ActaFlour,ActaFin,OTS Order
 ActaFlour,ActaFin,Site
 ActaFlour,ActaFresh,Authorization Data
 ActaFlour,ActaFresh,Offer
-ActaFlour,ActaFresh,Whse-Case
+ActaFlour,ActaFresh,WarehouseCase
 ActaFlour,ActaFuel,Store Catalog
-ActaFlour,ActaFuel,Whse-Case
+ActaFlour,ActaFuel,WarehouseCase
 ActaFlour,ActaHR,Store Catalog
 ActaFlour,ActaKronos,Authorization Data
 ActaFlour,ActaKronos,Item Master
@@ -1081,7 +1081,7 @@ ActaFlour,WdyMktng,Department
 ActaFlour,WdyMktng,Division
 ActaFlour,WdyMktng,Price Data
 ActaFlour,WdyPOS,Product Case
-ActaFlour,WdyPOS,Whse-Case
+ActaFlour,WdyPOS,WarehouseCase
 ActaFlour,WdyPurchasing,OrderDetail
 ActaFlour,WdyPurchasing,Promotion
 ActaFlour,WdyTime,Store Deliveries
@@ -1113,7 +1113,7 @@ ActaFresh,ActaFlour,Store Catalog
 ActaFresh,ActaFuel,Sales
 ActaFresh,ActaHR,Promotion
 ActaFresh,ActaHR,Site
-ActaFresh,ActaHR,Whse-Case
+ActaFresh,ActaHR,WarehouseCase
 ActaFresh,ActaKronos,Item Hierarchy
 ActaFresh,ActaKronos,Offer
 ActaFresh,ActaLink,Item Detail
@@ -1134,7 +1134,7 @@ ActaFresh,ActaPharm,Item Hierarchy
 ActaFresh,ActaPharm,Warehoust Dist
 ActaFresh,ActaPlan,Item Hierarchy
 ActaFresh,ActaPlan,Product Case
-ActaFresh,ActaPointMain,Whse-Case
+ActaFresh,ActaPointMain,WarehouseCase
 ActaFresh,ActaPointStore,Site
 ActaFresh,ActaPointStore,Store Deliveries
 ActaFresh,ActaProdID,Consumer
@@ -1304,7 +1304,7 @@ ActaHR,ActaDist,Purchase
 ActaHR,ActaEDW,OTS
 ActaHR,ActaFin,Item Hierarchy
 ActaHR,ActaFin,Pack
-ActaHR,ActaFin,Whse-Case
+ActaHR,ActaFin,WarehouseCase
 ActaHR,ActaFresh,Authorization
 ActaHR,ActaKronos,Consumer Case
 ActaHR,ActaKronos,Store Deliveries
@@ -1358,7 +1358,7 @@ ActaHR,FRWN-POS,Product
 ActaHR,FRWN-Time,Item Master
 ActaHR,FRWN-Time,OTS
 ActaHR,FRWN-Time,Sales Plans
-ActaHR,FRWN-Time,Whse-Case
+ActaHR,FRWN-Time,WarehouseCase
 ActaHR,FRWN-Xfer,Basket
 ActaHR,FRWN-Xfer,OTS Billing
 ActaHR,WdyLoyalty,Price History
@@ -1392,12 +1392,12 @@ ActaKronos,ActaFresh,DeliveryTruck
 ActaKronos,ActaFresh,Site
 ActaKronos,ActaFuel,Price History
 ActaKronos,ActaFuel,Store Catalog
-ActaKronos,ActaFuel,Whse-Case
+ActaKronos,ActaFuel,WarehouseCase
 ActaKronos,ActaHR,Coupon
 ActaKronos,ActaHR,OTS
 ActaKronos,ActaHR,OTS Item
 ActaKronos,ActaLink,OTS Item
-ActaKronos,ActaLink,Whse-Case
+ActaKronos,ActaLink,WarehouseCase
 ActaKronos,ActaMfg,Contract
 ActaKronos,ActaMobile,Coupon
 ActaKronos,ActaMobile,Item Detail
@@ -1421,7 +1421,7 @@ ActaKronos,ActaStore,Basket
 ActaKronos,ActaStoreLoc,Authorization Overide
 ActaKronos,ActaStoreLoc,Pack
 ActaKronos,ActaWeb,Location
-ActaKronos,EBJ_BIO,Whse-Case
+ActaKronos,EBJ_BIO,WarehouseCase
 ActaKronos,EBJ_CRM,OTS Cost
 ActaKronos,EBJ_CRM,Store Catalog
 ActaKronos,EBJ_CRM,Warehouse Shipping
@@ -1458,7 +1458,7 @@ ActaLink,ActaAcctDM,Item Master
 ActaLink,ActaBilling,Product Case
 ActaLink,ActaBilling,Warehouse Delivery
 ActaLink,ActaComp,Case
-ActaLink,ActaComp,Whse-Case
+ActaLink,ActaComp,WarehouseCase
 ActaLink,ActaCoupons,Consumer Case
 ActaLink,ActaCoupons,Offer
 ActaLink,ActaCoupons,OTS Billing
@@ -1474,7 +1474,7 @@ ActaLink,ActaFin,Basket
 ActaLink,ActaFin,Item Master
 ActaLink,ActaFlour,Contract
 ActaLink,ActaFlour,Division
-ActaLink,ActaFlour,Whse-Case
+ActaLink,ActaFlour,WarehouseCase
 ActaLink,ActaFresh,Consumer
 ActaLink,ActaFresh,Vendor
 ActaLink,ActaFresh,Web-Log
@@ -1546,7 +1546,7 @@ ActaLink,FRWN-POS,Item Master
 ActaLink,FRWN-Time,Item Hierarchy
 ActaLink,FRWN-Time,Item Master
 ActaLink,WdyLoyalty,OrderDetail
-ActaLink,WdyLoyalty,Whse-Case
+ActaLink,WdyLoyalty,WarehouseCase
 ActaLink,WdyMktng,Authorization
 ActaLink,WdyMktng,Case
 ActaLink,WdyPurchasing,Item Detail
@@ -1721,7 +1721,7 @@ ActaMktng,ActaWHSE,Store Deliveries
 ActaMktng,ActaWHSE,Vendor
 ActaMktng,EBJ_BIO,Item Master
 ActaMktng,EBJ_BIO,Promotion
-ActaMktng,EBJ_BIO,Whse-Case
+ActaMktng,EBJ_BIO,WarehouseCase
 ActaMktng,EBJ_CRM,Consumer Case
 ActaMktng,EBJ_CRM,Cost
 ActaMktng,EBJ_Insurance,Authorization Data
@@ -1752,7 +1752,7 @@ ActaMktng,WdySales,Timesheet
 ActaMobile,ActaAcctDM,Item Master
 ActaMobile,ActaAcctDM,Pack
 ActaMobile,ActaAcctDM,Price History
-ActaMobile,ActaBenefits,Whse-Case
+ActaMobile,ActaBenefits,WarehouseCase
 ActaMobile,ActaBilling,Authorization Data
 ActaMobile,ActaBilling,Department
 ActaMobile,ActaBilling,Promotion
@@ -1776,7 +1776,7 @@ ActaMobile,ActaFresh,Customer
 ActaMobile,ActaFresh,Warehoust Dist
 ActaMobile,ActaFuel,Warehouse Shipping
 ActaMobile,ActaHR,BOL
-ActaMobile,ActaHR,Whse-Case
+ActaMobile,ActaHR,WarehouseCase
 ActaMobile,ActaKronos,Revenue
 ActaMobile,ActaKronos,Store Deliveries
 ActaMobile,ActaMfg,Cost
@@ -1888,7 +1888,7 @@ ActaODS,EBJ_BIO,Authorization Overide
 ActaODS,EBJ_BIO,Timesheet
 ActaODS,EBJ_CRM,Authorization
 ActaODS,EBJ_CRM,OTS Item
-ActaODS,EBJ_CRM,Whse-Case
+ActaODS,EBJ_CRM,WarehouseCase
 ActaODS,EBJ_Insurance,Store Inventory
 ActaODS,EBJ_Insurance,Warehouse Delivery
 ActaODS,EBJ_POSHOSTED,Department
@@ -1948,7 +1948,7 @@ ActaPay,ActaPharm,Item Detail
 ActaPay,ActaPointMain,Deal
 ActaPay,ActaPointMain,DeliveryTruck
 ActaPay,ActaPointStore,Deal
-ActaPay,ActaProdID,Whse-Case
+ActaPay,ActaProdID,WarehouseCase
 ActaPay,ActaPromise,Authorization Overide
 ActaPay,ActaPromise,OTS Billing
 ActaPay,ActaPromise,OTS Vendor
@@ -1969,7 +1969,7 @@ ActaPay,EBJ_POS,Consumer
 ActaPay,EBJ_POS,Product Case
 ActaPay,EBJ_POSHOSTED,Customer
 ActaPay,EBJ_POSHOSTED,Division
-ActaPay,EBJ_POSHOSTED,Whse-Case
+ActaPay,EBJ_POSHOSTED,WarehouseCase
 ActaPay,EBJ_Purchasing,Pack
 ActaPay,EBJ_Purchasing,Sales Plans
 ActaPay,EBJ_Security,Price Data
@@ -2023,7 +2023,7 @@ ActaPharm,ActaFuel,Price Change
 ActaPharm,ActaFuel,Product Case
 ActaPharm,ActaHR,Basket
 ActaPharm,ActaHR,Timesheet
-ActaPharm,ActaHR,Whse-Case
+ActaPharm,ActaHR,WarehouseCase
 ActaPharm,ActaKronos,Consumer
 ActaPharm,ActaKronos,Item Master
 ActaPharm,ActaKronos,OTS Order
@@ -2063,14 +2063,14 @@ ActaPharm,EBJ_CRM,Price Data
 ActaPharm,EBJ_Insurance,Case
 ActaPharm,EBJ_Insurance,Ingredient
 ActaPharm,EBJ_Insurance,Unit
-ActaPharm,EBJ_Insurance,Whse-Case
+ActaPharm,EBJ_Insurance,WarehouseCase
 ActaPharm,EBJ_POS,Ingredient
 ActaPharm,EBJ_POS,Warehouse Delivery
 ActaPharm,EBJ_POSHOSTED,Authorization Data
 ActaPharm,EBJ_POSHOSTED,Cost
 ActaPharm,EBJ_POSHOSTED,Store Deliveries
 ActaPharm,EBJ_Purchasing,OrderDetail
-ActaPharm,EBJ_Purchasing,Whse-Case
+ActaPharm,EBJ_Purchasing,WarehouseCase
 ActaPharm,EBJ_Security,OTS
 ActaPharm,FRWN-ERP,Sales Plans
 ActaPharm,FRWN-ERP,Timesheet
@@ -2122,18 +2122,18 @@ ActaPlan,ActaPay,Price Change
 ActaPlan,ActaPay,Site
 ActaPlan,ActaPharm,OTS Vendor
 ActaPlan,ActaPharm,Sales
-ActaPlan,ActaPharm,Whse-Case
+ActaPlan,ActaPharm,WarehouseCase
 ActaPlan,ActaPointStore,Revenue
 ActaPlan,ActaPointStore,Warehoust Dist
 ActaPlan,ActaProdID,OTS Item
-ActaPlan,ActaProdID,Whse-Case
+ActaPlan,ActaProdID,WarehouseCase
 ActaPlan,ActaPromise,Basket
 ActaPlan,ActaPromise,OTS Vendor
 ActaPlan,ActaPromise,Store Deliveries
 ActaPlan,ActaPromise,Store Inventory
 ActaPlan,ActaPromise,Unit
 ActaPlan,ActaReport,Contract
-ActaPlan,ActaReport,Whse-Case
+ActaPlan,ActaReport,WarehouseCase
 ActaPlan,ActaSched,Case
 ActaPlan,ActaSched,Division
 ActaPlan,ActaSched,Purchase
@@ -2144,7 +2144,7 @@ ActaPlan,ActaStore,Marketing Plans
 ActaPlan,ActaStore,Web-Log
 ActaPlan,ActaStoreLoc,Item Master
 ActaPlan,ActaStoreLoc,Marketing Plans
-ActaPlan,ActaStoreLoc,Whse-Case
+ActaPlan,ActaStoreLoc,WarehouseCase
 ActaPlan,ActaWeb,Marketing Plans
 ActaPlan,ActaWeb,Order
 ActaPlan,ActaWeb,Product
@@ -2247,7 +2247,7 @@ ActaPointMain,ActaProdID,Consumer
 ActaPointMain,ActaProdID,Item Hierarchy
 ActaPointMain,ActaProdID,Sales
 ActaPointMain,ActaProdID,Store Inventory
-ActaPointMain,ActaProdID,Whse-Case
+ActaPointMain,ActaProdID,WarehouseCase
 ActaPointMain,ActaPromise,Case
 ActaPointMain,ActaPromise,Revenue
 ActaPointMain,ActaPromise,Timesheet
@@ -2368,7 +2368,7 @@ ActaPointStore,EBJ_Purchasing,Deal
 ActaPointStore,FRWN-ERP,OTS Billing
 ActaPointStore,FRWN-POS,Consumer
 ActaPointStore,FRWN-POS,Unit
-ActaPointStore,FRWN-POS,Whse-Case
+ActaPointStore,FRWN-POS,WarehouseCase
 ActaPointStore,FRWN-Time,Deal
 ActaPointStore,FRWN-Xfer,Price History
 ActaPointStore,FRWN-Xfer,Product
@@ -2419,7 +2419,7 @@ ActaProdID,ActaMfg,Marketing Plans
 ActaProdID,ActaMfg,Sales
 ActaProdID,ActaMktng,Timesheet
 ActaProdID,ActaMktng,Warehouse Shipping
-ActaProdID,ActaMktng,Whse-Case
+ActaProdID,ActaMktng,WarehouseCase
 ActaProdID,ActaMobile,Authorization Overide
 ActaProdID,ActaMobile,OrderDetail
 ActaProdID,ActaMobile,OTS Order
@@ -2460,7 +2460,7 @@ ActaProdID,EBJ_CRM,Price Change
 ActaProdID,EBJ_CRM,Timesheet
 ActaProdID,EBJ_Insurance,Coupon
 ActaProdID,EBJ_Insurance,Promotion
-ActaProdID,EBJ_Insurance,Whse-Case
+ActaProdID,EBJ_Insurance,WarehouseCase
 ActaProdID,EBJ_POS,Contract
 ActaProdID,EBJ_POSHOSTED,Consumer
 ActaProdID,EBJ_POSHOSTED,Order
@@ -2483,7 +2483,7 @@ ActaProdID,WdyPOS,Purchase
 ActaProdID,WdyPurchasing,Location
 ActaProdID,WdySales,OTS Vendor
 ActaProdID,WdyTime,Pack
-ActaProdID,WdyTime,Whse-Case
+ActaProdID,WdyTime,WarehouseCase
 ActaPromise,ActaAcctDM,Case
 ActaPromise,ActaAcctDM,Coupon
 ActaPromise,ActaAcctDM,Ingredient
@@ -2498,7 +2498,7 @@ ActaPromise,ActaCS,OrderDetail
 ActaPromise,ActaData,Basket
 ActaPromise,ActaEDW,Coupon
 ActaPromise,ActaEDW,Product Case
-ActaPromise,ActaFin,Whse-Case
+ActaPromise,ActaFin,WarehouseCase
 ActaPromise,ActaFlour,Price Data
 ActaPromise,ActaFuel,Price Data
 ActaPromise,ActaKronos,Item Master
@@ -2508,7 +2508,7 @@ ActaPromise,ActaMfg,Unit
 ActaPromise,ActaMktng,OTS
 ActaPromise,ActaMobile,Coupon
 ActaPromise,ActaMobile,OTS Vendor
-ActaPromise,ActaMobile,Whse-Case
+ActaPromise,ActaMobile,WarehouseCase
 ActaPromise,ActaODS,BOL
 ActaPromise,ActaODS,Revenue
 ActaPromise,ActaODS,Sales Plans
@@ -2557,7 +2557,7 @@ ActaPromise,FRWN-Time,Warehouse Order
 ActaPromise,FRWN-Xfer,Promotion
 ActaPromise,WdyLoyalty,Ingredient
 ActaPromise,WdyLoyalty,OTS Order
-ActaPromise,WdyLoyalty,Whse-Case
+ActaPromise,WdyLoyalty,WarehouseCase
 ActaPromise,WdyMktng,Item Hierarchy
 ActaPromise,WdyMktng,OTS Order
 ActaPromise,WdyPOS,BOL
@@ -2660,7 +2660,7 @@ ActaReport,FRWN-Xfer,Consumer Case
 ActaReport,FRWN-Xfer,Department
 ActaReport,WdyLoyalty,Basket
 ActaReport,WdyLoyalty,Store Catalog
-ActaReport,WdyPOS,Whse-Case
+ActaReport,WdyPOS,WarehouseCase
 ActaReport,WdyPurchasing,Marketing Plans
 ActaReport,WdySales,Pack
 ActaReport,WdySales,Warehoust Dist
@@ -2711,7 +2711,7 @@ ActaSched,ActaMfg,Warehouse Order
 ActaSched,ActaMktng,BOL
 ActaSched,ActaMktng,Department
 ActaSched,ActaMktng,Store Inventory
-ActaSched,ActaMktng,Whse-Case
+ActaSched,ActaMktng,WarehouseCase
 ActaSched,ActaODS,Authorization Data
 ActaSched,ActaODS,Case
 ActaSched,ActaODS,Deal
@@ -2827,7 +2827,7 @@ ActaStore,ActaProdID,Basket
 ActaStore,ActaProdID,Price Data
 ActaStore,ActaProdID,Product
 ActaStore,ActaPromise,Site
-ActaStore,ActaPromise,Whse-Case
+ActaStore,ActaPromise,WarehouseCase
 ActaStore,ActaReport,Employee
 ActaStore,ActaReport,Promotion
 ActaStore,ActaReport,Warehouse Shipping
@@ -2959,7 +2959,7 @@ ActaStoreLoc,EBJ_POSHOSTED,Item Hierarchy
 ActaStoreLoc,EBJ_POSHOSTED,Marketing Plans
 ActaStoreLoc,EBJ_POSHOSTED,Product Case
 ActaStoreLoc,EBJ_POSHOSTED,Warehouse Shipping
-ActaStoreLoc,EBJ_Purchasing,Whse-Case
+ActaStoreLoc,EBJ_Purchasing,WarehouseCase
 ActaStoreLoc,EBJ_Security,DeliveryTruck
 ActaStoreLoc,EBJ_Security,Web-Log
 ActaStoreLoc,FRWN-ERP,DeliveryTruck
@@ -3191,7 +3191,7 @@ ActaWHSE,WdySales,OTS Vendor
 ActaWHSE,WdyTime,Case
 ActaWHSE,WdyTime,Revenue
 ActaWHSE,WdyTime,Web-Log
-EBJ_BIO,ActaAcctDM,Whse-Case
+EBJ_BIO,ActaAcctDM,WarehouseCase
 EBJ_BIO,ActaBenefits,DeliveryTruck
 EBJ_BIO,ActaComp,BOL
 EBJ_BIO,ActaComp,Customer
@@ -3206,7 +3206,7 @@ EBJ_BIO,ActaData,Product Case
 EBJ_BIO,ActaDist,Pack
 EBJ_BIO,ActaDist,Sales
 EBJ_BIO,ActaDist,Vendor
-EBJ_BIO,ActaDist,Whse-Case
+EBJ_BIO,ActaDist,WarehouseCase
 EBJ_BIO,ActaEDW,Consumer
 EBJ_BIO,ActaFlour,Price History
 EBJ_BIO,ActaFlour,Unit
@@ -3247,7 +3247,7 @@ EBJ_BIO,ActaPromise,OTS Order
 EBJ_BIO,ActaPromise,Product Case
 EBJ_BIO,ActaReport,Case
 EBJ_BIO,ActaReport,Store Inventory
-EBJ_BIO,ActaReport,Whse-Case
+EBJ_BIO,ActaReport,WarehouseCase
 EBJ_BIO,ActaSched,Customer
 EBJ_BIO,ActaSched,Item Hierarchy
 EBJ_BIO,ActaSched,Location
@@ -3271,7 +3271,7 @@ EBJ_BIO,EBJ_Purchasing,Vendor
 EBJ_BIO,EBJ_Security,Allocation
 EBJ_BIO,EBJ_Security,Contract
 EBJ_BIO,EBJ_Security,Pack
-EBJ_BIO,EBJ_Security,Whse-Case
+EBJ_BIO,EBJ_Security,WarehouseCase
 EBJ_BIO,FRWN-ERP,Allocation
 EBJ_BIO,FRWN-ERP,OTS Cost
 EBJ_BIO,FRWN-ERP,Pack
@@ -3348,9 +3348,9 @@ EBJ_CRM,ActaReport,Basket
 EBJ_CRM,ActaReport,DeliveryTruck
 EBJ_CRM,ActaReport,Marketing Plans
 EBJ_CRM,ActaReport,Price History
-EBJ_CRM,ActaReport,Whse-Case
+EBJ_CRM,ActaReport,WarehouseCase
 EBJ_CRM,ActaSched,Pack
-EBJ_CRM,ActaSched,Whse-Case
+EBJ_CRM,ActaSched,WarehouseCase
 EBJ_CRM,ActaStoreLoc,Authorization Data
 EBJ_CRM,ActaStoreLoc,OTS Billing
 EBJ_CRM,ActaStoreLoc,Product
@@ -3407,12 +3407,12 @@ EBJ_Insurance,ActaFlour,Product
 EBJ_Insurance,ActaFresh,Consumer Case
 EBJ_Insurance,ActaFresh,Offer
 EBJ_Insurance,ActaFresh,OTS Cost
-EBJ_Insurance,ActaFuel,Whse-Case
+EBJ_Insurance,ActaFuel,WarehouseCase
 EBJ_Insurance,ActaKronos,Deal
 EBJ_Insurance,ActaKronos,Department
 EBJ_Insurance,ActaKronos,Item Detail
 EBJ_Insurance,ActaKronos,OTS Vendor
-EBJ_Insurance,ActaKronos,Whse-Case
+EBJ_Insurance,ActaKronos,WarehouseCase
 EBJ_Insurance,ActaLink,Consumer
 EBJ_Insurance,ActaLink,Deal
 EBJ_Insurance,ActaLink,OrderDetail
@@ -3442,7 +3442,7 @@ EBJ_Insurance,ActaReport,Location
 EBJ_Insurance,ActaReport,Offer
 EBJ_Insurance,ActaSched,Offer
 EBJ_Insurance,ActaSched,Product
-EBJ_Insurance,ActaSched,Whse-Case
+EBJ_Insurance,ActaSched,WarehouseCase
 EBJ_Insurance,ActaStore,Location
 EBJ_Insurance,ActaStore,Pack
 EBJ_Insurance,ActaStoreLoc,Marketing Plans
@@ -3510,9 +3510,9 @@ EBJ_POS,ActaFin,Promotion
 EBJ_POS,ActaFlour,Price Data
 EBJ_POS,ActaFresh,Division
 EBJ_POS,ActaFresh,Product Case
-EBJ_POS,ActaFresh,Whse-Case
+EBJ_POS,ActaFresh,WarehouseCase
 EBJ_POS,ActaFuel,Price Change
-EBJ_POS,ActaFuel,Whse-Case
+EBJ_POS,ActaFuel,WarehouseCase
 EBJ_POS,ActaHR,DeliveryTruck
 EBJ_POS,ActaHR,Unit
 EBJ_POS,ActaKronos,OTS Order
@@ -3528,7 +3528,7 @@ EBJ_POS,ActaODS,Item Master
 EBJ_POS,ActaODS,Marketing Plans
 EBJ_POS,ActaODS,Timesheet
 EBJ_POS,ActaPay,Price History
-EBJ_POS,ActaPay,Whse-Case
+EBJ_POS,ActaPay,WarehouseCase
 EBJ_POS,ActaPharm,Authorization Overide
 EBJ_POS,ActaPharm,Store Deliveries
 EBJ_POS,ActaPlan,Product Case
@@ -3627,7 +3627,7 @@ EBJ_POSHOSTED,ActaPointStore,OrderDetail
 EBJ_POSHOSTED,ActaPointStore,Price Change
 EBJ_POSHOSTED,ActaProdID,BOL
 EBJ_POSHOSTED,ActaProdID,Case
-EBJ_POSHOSTED,ActaProdID,Whse-Case
+EBJ_POSHOSTED,ActaProdID,WarehouseCase
 EBJ_POSHOSTED,ActaPromise,Authorization
 EBJ_POSHOSTED,ActaPromise,Campaign
 EBJ_POSHOSTED,ActaPromise,OTS Billing
@@ -3636,7 +3636,7 @@ EBJ_POSHOSTED,ActaReport,Item Master
 EBJ_POSHOSTED,ActaReport,Purchase
 EBJ_POSHOSTED,ActaSched,Warehoust Dist
 EBJ_POSHOSTED,ActaStore,Ingredient
-EBJ_POSHOSTED,ActaStore,Whse-Case
+EBJ_POSHOSTED,ActaStore,WarehouseCase
 EBJ_POSHOSTED,ActaStoreLoc,Contract
 EBJ_POSHOSTED,ActaStoreLoc,Cost
 EBJ_POSHOSTED,ActaStoreLoc,Product
@@ -3644,19 +3644,19 @@ EBJ_POSHOSTED,ActaStoreLoc,Revenue
 EBJ_POSHOSTED,ActaStoreLoc,Sales Plans
 EBJ_POSHOSTED,ActaStoreLoc,Store Deliveries
 EBJ_POSHOSTED,ActaStoreLoc,Warehouse Delivery
-EBJ_POSHOSTED,ActaStoreLoc,Whse-Case
+EBJ_POSHOSTED,ActaStoreLoc,WarehouseCase
 EBJ_POSHOSTED,ActaWeb,Unit
 EBJ_POSHOSTED,ActaWHSE,Consumer
 EBJ_POSHOSTED,ActaWHSE,Coupon
 EBJ_POSHOSTED,ActaWHSE,Price Change
-EBJ_POSHOSTED,ActaWHSE,Whse-Case
+EBJ_POSHOSTED,ActaWHSE,WarehouseCase
 EBJ_POSHOSTED,EBJ_BIO,Basket
 EBJ_POSHOSTED,EBJ_BIO,Ingredient
 EBJ_POSHOSTED,EBJ_BIO,Store Inventory
 EBJ_POSHOSTED,EBJ_CRM,Coupon
 EBJ_POSHOSTED,EBJ_CRM,Marketing Plans
 EBJ_POSHOSTED,EBJ_CRM,OTS
-EBJ_POSHOSTED,EBJ_Insurance,Whse-Case
+EBJ_POSHOSTED,EBJ_Insurance,WarehouseCase
 EBJ_POSHOSTED,EBJ_POS,Case
 EBJ_POSHOSTED,EBJ_POS,Cost
 EBJ_POSHOSTED,EBJ_POS,Marketing Plans
@@ -3708,7 +3708,7 @@ EBJ_Purchasing,ActaDist,Offer
 EBJ_Purchasing,ActaEDW,Location
 EBJ_Purchasing,ActaEDW,Order
 EBJ_Purchasing,ActaEDW,Warehoust Dist
-EBJ_Purchasing,ActaEDW,Whse-Case
+EBJ_Purchasing,ActaEDW,WarehouseCase
 EBJ_Purchasing,ActaFin,OTS Billing
 EBJ_Purchasing,ActaFlour,Basket
 EBJ_Purchasing,ActaFlour,Store Deliveries
@@ -3845,7 +3845,7 @@ EBJ_Security,ActaWeb,Store Catalog
 EBJ_Security,ActaWeb,Web-Log
 EBJ_Security,EBJ_BIO,Ingredient
 EBJ_Security,EBJ_CRM,Marketing Plans
-EBJ_Security,EBJ_CRM,Whse-Case
+EBJ_Security,EBJ_CRM,WarehouseCase
 EBJ_Security,EBJ_Insurance,Consumer Case
 EBJ_Security,EBJ_POS,Customer
 EBJ_Security,EBJ_POS,Division
@@ -3911,7 +3911,7 @@ FRWN-ERP,ActaLink,Purchase
 FRWN-ERP,ActaMfg,OTS Item
 FRWN-ERP,ActaMfg,Price Data
 FRWN-ERP,ActaMfg,Store Inventory
-FRWN-ERP,ActaMktng,Whse-Case
+FRWN-ERP,ActaMktng,WarehouseCase
 FRWN-ERP,ActaMobile,Price History
 FRWN-ERP,ActaODS,BOL
 FRWN-ERP,ActaODS,Division
@@ -4003,11 +4003,11 @@ FRWN-POS,ActaFuel,Allocation
 FRWN-POS,ActaFuel,Consumer
 FRWN-POS,ActaFuel,Division
 FRWN-POS,ActaFuel,Warehouse Shipping
-FRWN-POS,ActaFuel,Whse-Case
+FRWN-POS,ActaFuel,WarehouseCase
 FRWN-POS,ActaKronos,Case
 FRWN-POS,ActaKronos,Ingredient
 FRWN-POS,ActaKronos,Item Hierarchy
-FRWN-POS,ActaKronos,Whse-Case
+FRWN-POS,ActaKronos,WarehouseCase
 FRWN-POS,ActaLink,Authorization Overide
 FRWN-POS,ActaLink,OTS Cost
 FRWN-POS,ActaLink,Revenue
@@ -4024,7 +4024,7 @@ FRWN-POS,ActaODS,Marketing Plans
 FRWN-POS,ActaODS,Store Deliveries
 FRWN-POS,ActaPay,Item Detail
 FRWN-POS,ActaPharm,Price Data
-FRWN-POS,ActaPharm,Whse-Case
+FRWN-POS,ActaPharm,WarehouseCase
 FRWN-POS,ActaPlan,Store Inventory
 FRWN-POS,ActaPointMain,Campaign
 FRWN-POS,ActaPointMain,OTS Cost
@@ -4049,7 +4049,7 @@ FRWN-POS,EBJ_BIO,BOL
 FRWN-POS,EBJ_CRM,DeliveryTruck
 FRWN-POS,EBJ_CRM,Marketing Plans
 FRWN-POS,EBJ_CRM,Store Deliveries
-FRWN-POS,EBJ_CRM,Whse-Case
+FRWN-POS,EBJ_CRM,WarehouseCase
 FRWN-POS,EBJ_Insurance,Ingredient
 FRWN-POS,EBJ_Insurance,Warehoust Dist
 FRWN-POS,EBJ_POSHOSTED,Customer
@@ -4107,7 +4107,7 @@ FRWN-Time,ActaMobile,Product
 FRWN-Time,ActaMobile,Product Case
 FRWN-Time,ActaODS,Contract
 FRWN-Time,ActaPay,Allocation
-FRWN-Time,ActaPlan,Whse-Case
+FRWN-Time,ActaPlan,WarehouseCase
 FRWN-Time,ActaPointStore,Cost
 FRWN-Time,ActaPointStore,Customer
 FRWN-Time,ActaPointStore,Location
@@ -4144,7 +4144,7 @@ FRWN-Time,FRWN-ERP,Allocation
 FRWN-Time,FRWN-ERP,Warehouse Shipping
 FRWN-Time,FRWN-POS,Product
 FRWN-Time,FRWN-Xfer,OTS Item
-FRWN-Time,FRWN-Xfer,Whse-Case
+FRWN-Time,FRWN-Xfer,WarehouseCase
 FRWN-Time,WdyLoyalty,Campaign
 FRWN-Time,WdyLoyalty,Store Deliveries
 FRWN-Time,WdyPOS,OTS Billing
@@ -4209,7 +4209,7 @@ FRWN-Xfer,ActaPointStore,Warehouse Order
 FRWN-Xfer,ActaProdID,Campaign
 FRWN-Xfer,ActaProdID,DeliveryTruck
 FRWN-Xfer,ActaProdID,Promotion
-FRWN-Xfer,ActaProdID,Whse-Case
+FRWN-Xfer,ActaProdID,WarehouseCase
 FRWN-Xfer,ActaPromise,Item Master
 FRWN-Xfer,ActaPromise,Price Change
 FRWN-Xfer,ActaReport,Coupon
@@ -4283,11 +4283,11 @@ WdyLoyalty,ActaLink,Site
 WdyLoyalty,ActaMktng,Ingredient
 WdyLoyalty,ActaMktng,Product
 WdyLoyalty,ActaMobile,Site
-WdyLoyalty,ActaMobile,Whse-Case
+WdyLoyalty,ActaMobile,WarehouseCase
 WdyLoyalty,ActaODS,Store Inventory
 WdyLoyalty,ActaPay,OTS Cost
 WdyLoyalty,ActaPharm,OrderDetail
-WdyLoyalty,ActaPharm,Whse-Case
+WdyLoyalty,ActaPharm,WarehouseCase
 WdyLoyalty,ActaPointMain,Consumer
 WdyLoyalty,ActaPointMain,Item Hierarchy
 WdyLoyalty,ActaProdID,Warehoust Dist
@@ -4332,7 +4332,7 @@ WdyLoyalty,WdyMktng,Consumer
 WdyLoyalty,WdyPurchasing,Authorization Overide
 WdyLoyalty,WdyPurchasing,Contract
 WdyLoyalty,WdySales,Warehoust Dist
-WdyLoyalty,WdyTime,Whse-Case
+WdyLoyalty,WdyTime,WarehouseCase
 WdyMktng,ActaAcctDM,Item Master
 WdyMktng,ActaAcctDM,Price Change
 WdyMktng,ActaBenefits,Basket
@@ -4376,7 +4376,7 @@ WdyMktng,ActaPay,Web-Log
 WdyMktng,ActaPharm,Order
 WdyMktng,ActaPharm,Purchase
 WdyMktng,ActaPlan,Price Change
-WdyMktng,ActaPlan,Whse-Case
+WdyMktng,ActaPlan,WarehouseCase
 WdyMktng,ActaPointStore,Vendor
 WdyMktng,ActaProdID,Location
 WdyMktng,ActaProdID,Order
@@ -4497,7 +4497,7 @@ WdyPOS,ActaWHSE,Location
 WdyPOS,ActaWHSE,Scanner
 WdyPOS,EBJ_BIO,Employee
 WdyPOS,EBJ_BIO,Web-Log
-WdyPOS,EBJ_BIO,Whse-Case
+WdyPOS,EBJ_BIO,WarehouseCase
 WdyPOS,EBJ_Insurance,Item Master
 WdyPOS,EBJ_POS,Warehouse Delivery
 WdyPOS,EBJ_POSHOSTED,Coupon
@@ -4513,7 +4513,7 @@ WdyPOS,WdyMktng,Price Data
 WdyPOS,WdyMktng,Revenue
 WdyPOS,WdyPurchasing,Ingredient
 WdyPOS,WdyPurchasing,Price History
-WdyPOS,WdyPurchasing,Whse-Case
+WdyPOS,WdyPurchasing,WarehouseCase
 WdyPOS,WdySales,Coupon
 WdyPOS,WdySales,DeliveryTruck
 WdyPOS,WdyTime,Unit
@@ -4531,7 +4531,7 @@ WdyPurchasing,ActaData,OTS
 WdyPurchasing,ActaData,Web-Log
 WdyPurchasing,ActaEDW,Pack
 WdyPurchasing,ActaEDW,Store Catalog
-WdyPurchasing,ActaEDW,Whse-Case
+WdyPurchasing,ActaEDW,WarehouseCase
 WdyPurchasing,ActaFin,OrderDetail
 WdyPurchasing,ActaFlour,DeliveryTruck
 WdyPurchasing,ActaFresh,Department
@@ -4674,7 +4674,7 @@ WdySales,ActaPlan,Item Master
 WdySales,ActaPlan,Sales Plans
 WdySales,ActaPointMain,Consumer
 WdySales,ActaProdID,Sales Plans
-WdySales,ActaPromise,Whse-Case
+WdySales,ActaPromise,WarehouseCase
 WdySales,ActaReport,Campaign
 WdySales,ActaReport,Item Detail
 WdySales,ActaReport,OTS

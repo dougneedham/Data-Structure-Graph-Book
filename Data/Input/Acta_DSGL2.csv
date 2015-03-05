@@ -133,7 +133,7 @@ ActaAcctDM,WdyPurchasing,Authorization Data
 ActaPharm,ActaBenefits,OTS Vendor
 WdyPurchasing,EBJ_POSHOSTED,Store Deliveries
 EBJ_BIO,ActaWHSE,Unit
-ActaMktng,ActaProdID,Whse-Case
+ActaMktng,ActaProdID,WarehouseCase
 EBJ_Purchasing,ActaFin,Warehouse Shipping
 ActaLink,ActaStore,Store Catalog
 ActaComp,ActaMktng,Contract
@@ -206,7 +206,7 @@ ActaWeb,ActaMobile,Consumer
 ActaFlour,FRWN-ERP,Warehouse Order
 ActaData,ActaFlour,OTS Vendor
 EBJ_CRM,FRWN-Xfer,OTS Order
-FRWN-Xfer,ActaMobile,Whse-Case
+FRWN-Xfer,ActaMobile,WarehouseCase
 WdyPOS,ActaPromise,Consumer
 ActaFuel,EBJ_Insurance,Product Case
 ActaPharm,ActaMfg,Employee
@@ -225,7 +225,7 @@ WdyMktng,ActaCoupons,Item Detail
 ActaEDW,ActaReport,Sales Plans
 WdyPurchasing,FRWN-POS,Unit
 ActaMktng,WdyPOS,OTS Billing
-ActaPay,EBJ_BIO,Whse-Case
+ActaPay,EBJ_BIO,WarehouseCase
 WdyMktng,ActaFresh,Item Master
 ActaComp,ActaStore,Warehouse Delivery
 ActaStore,WdySales,OTS Cost
@@ -250,7 +250,7 @@ WdyLoyalty,ActaComp,Case
 ActaPromise,ActaEDW,Warehoust Dist
 ActaFuel,ActaMobile,Store Inventory
 ActaDist,WdySales,Revenue
-ActaPointStore,WdyPOS,Whse-Case
+ActaPointStore,WdyPOS,WarehouseCase
 ActaWHSE,EBJ_POS,Department
 FRWN-POS,ActaPointMain,Product
 EBJ_Insurance,ActaHR,Contract
@@ -335,17 +335,17 @@ ActaPlan,WdyMktng,Allocation
 ActaMfg,ActaEDW,OTS Item
 ActaData,WdySales,Contract
 ActaStoreLoc,ActaData,Allocation
-ActaMfg,ActaODS,Whse-Case
+ActaMfg,ActaODS,WarehouseCase
 ActaPromise,EBJ_POSHOSTED,Employee
 EBJ_Insurance,ActaComp,Customer
 ActaHR,ActaPromise,Division
-ActaPointMain,EBJ_POSHOSTED,Whse-Case
+ActaPointMain,EBJ_POSHOSTED,WarehouseCase
 WdySales,EBJ_POSHOSTED,Timesheet
 ActaPharm,FRWN-Time,Authorization Overide
 ActaFuel,ActaCS,Web-Log
 ActaODS,WdySales,Price History
 ActaData,ActaAcctDM,Unit
-ActaPlan,ActaReport,Whse-Case
+ActaPlan,ActaReport,WarehouseCase
 FRWN-POS,ActaCoupons,Price History
 EBJ_POSHOSTED,EBJ_CRM,Cost
 ActaWHSE,WdyLoyalty,Division
@@ -359,7 +359,7 @@ FRWN-Xfer,ActaBenefits,Web-Log
 EBJ_Security,ActaWeb,Item Detail
 ActaBenefits,ActaWHSE,Timesheet
 EBJ_POS,ActaEDW,Customer
-ActaWeb,ActaCS,Whse-Case
+ActaWeb,ActaCS,WarehouseCase
 ActaFlour,ActaPointMain,Employee
 ActaAcctDM,ActaCS,OTS
 FRWN-POS,ActaPharm,Item Detail
@@ -427,7 +427,7 @@ EBJ_Purchasing,ActaProdID,Sales Plans
 FRWN-ERP,WdyPurchasing,OTS Vendor
 ActaAcctDM,WdyLoyalty,Coupon
 ActaODS,ActaFuel,Cost
-ActaCoupons,ActaPointStore,Whse-Case
+ActaCoupons,ActaPointStore,WarehouseCase
 FRWN-POS,ActaReport,Authorization
 ActaPromise,WdySales,Promotion
 ActaWHSE,ActaStore,Case
