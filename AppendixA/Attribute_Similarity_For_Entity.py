@@ -1,5 +1,6 @@
 #!/usr/bin/python
 from __future__ import division
+import csv
 import sys
 import md5
 import json
@@ -7,14 +8,17 @@ import numpy as np
 import pandas as pd
 
 file_name = sys.argv[1]
+outfile   = sys.argv[2]
 
 def get_data_from_file(input_file):
 	#
 	# simple function to read data from a csv file. 
 	#
 	file_handle = open(input_file,'r')
-	content = file_handle.read()
-	file_handle.close()
+	#content = file_handle.read()
+	#content = pd.read_csv(input_file)
+	content = csv.reader(file_handle,quotechar='"')
+	#file_handle.close()
 	
 	return content
 def calc_euclid(input_dict,from_key,to_key):
@@ -53,7 +57,10 @@ def similarity_report(input_dict):
 	# print the result as a data frame. 
 	# pandas does this nicely
 	#
-	print pd.DataFrame(result_array,output_line,output_line)			
+	pd.set_option('display.max_columns', 8)
+	outputDF = pd.DataFrame(result_array,output_line,output_line)			
+	print outputDF
+	outputDF.to_csv(outfile)
 	return
 	
 if __name__ == '__main__':
@@ -65,14 +72,16 @@ array_dict = {}
 small_dict = {}	
 header = []
 
-for line in attribute_data.split('\n'):
+#for line in attribute_data.split('\n'):
+for line in attribute_data:
 	data = []
 	row = ""
-	line_length = len(line.split(','))
+	#line_length = len(line.split(','))
+	line_length = len(line)
 	if(line_length > 1): 
-		data = line.split(',')
+		data = line
 		if(data[line_length-1] == 'Time'):
-			for attribute in line.split(','):
+			for attribute in line:
 				# populate the header list - which is made up of the attribute names we are studying
 				#
 				header.append(attribute)
