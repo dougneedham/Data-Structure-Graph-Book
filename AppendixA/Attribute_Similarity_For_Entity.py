@@ -7,6 +7,11 @@ import json
 import numpy as np
 import pandas as pd
 
+#
+
+# Argument 1 is the file to be analyzed
+# Argument 2 is the report file
+
 file_name = sys.argv[1]
 outfile   = sys.argv[2]
 
@@ -17,7 +22,7 @@ def get_data_from_file(input_file):
 	file_handle = open(input_file,'r')
 	#content = file_handle.read()
 	#content = pd.read_csv(input_file)
-	content = csv.reader(file_handle,quotechar='"')
+	content = csv.reader(file_handle,quotechar='"',delimiter='|')
 	#file_handle.close()
 	
 	return content

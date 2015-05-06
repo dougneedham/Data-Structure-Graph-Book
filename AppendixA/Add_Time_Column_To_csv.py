@@ -15,9 +15,9 @@ grouping = int(grouping)
 index_row = 0
 time = 0
 outfh = open(outfile,'wb')
-outwriter = csv.writer(outfh,delimiter = ',')
+outwriter = csv.writer(outfh,delimiter = '|')
 with open(filename,'r') as csvfile:
-	read_data = csv.reader(csvfile,delimiter=',',quotechar='"')
+	read_data = csv.reader(csvfile,delimiter='|',quotechar='"')
 	for row in read_data:
 		if (index_row % grouping) == 0:
 			time = time + 1
@@ -25,7 +25,8 @@ with open(filename,'r') as csvfile:
 			row.append('Time')
 		else:	
 			row.append(str(time))
-		outfh
 		outwriter.writerow(row)
 		#print(','.join(row))
 		index_row = index_row + 1
+outfh.close()
+csvfile.close()
