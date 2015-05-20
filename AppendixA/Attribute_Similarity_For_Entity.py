@@ -22,7 +22,7 @@ def init_logger(log_level):
     logging.config.fileConfig("logconfig.ini")
     global lgr
     lgr = logging.getLogger(log_level)
-
+    lgr.setLevel(log_level)
 
 def get_data_from_file(input_file,delimiter_arg,quotechar_arg):
 	#
@@ -80,27 +80,30 @@ def similarity_report(input_dict,outfile):
 
 	
 def main():
-    	parser = argparse.ArgumentParser(description='Add the Time Column to a normal CSV file');
-    	parser.add_argument("-i", "--infile", help="Input File",required=True)
-    	parser.add_argument("-o", "--outfile", help="Output File",required=True)
-    	parser.add_argument("-q","--quote", help = "Quotecharacter to use",default='"')
-    	parser.add_argument("-d","--delimiter", help = "Delimiter to use",default=',')
-    	parser.add_argument("-ll", "--loglevel",
-                        help="Log Level; 'log_error' logs only error messages to file; 'logs/EntityAnalysisDebug.log' logs all messages to file");
-    	args = parser.parse_args();
-    	init_logger(args.loglevel)
+	parser = argparse.ArgumentParser(description='Add the Time Column to a normal CSV file');
+	parser.add_argument("-i", "--infile", help="Input File",required=True)
+	parser.add_argument("-o", "--outfile", help="Output File",required=True)
+	parser.add_argument("-q","--quote", help = "Quotecharacter to use",default='"')
+	parser.add_argument("-d","--delimiter", help = "Delimiter to use",default=',')
+	parser.add_argument("-ll", "--loglevel",
+					help="Log Level; 'log_error' logs only error messages to file; 'logs/EntityAnalysisDebug.log' logs all messages to file");
+	args = parser.parse_args();
+	init_logger(args.loglevel)
 	# predefine a few variables
 	attribute_data = get_data_from_file(args.infile,args.delimiter,args.quote)
 	master_dict = {}
 	array_dict = {}
 	small_dict = {}	
 	header = []
-
+        unique_data = 1
+	unique_dict = {}
+	lgr.info("Input  file is: {0}".format(args.infile))
+	lgr.info("Output file is: {0}".format(args.outfile))
+	lgr.info("Delimiter    is: {0}".format(args.delimiter))
 	#for line in attribute_data.split('\n'):
 	for line in attribute_data:
 		data = []
 		row = ""
-		#line_length = len(line.split(','))
 		line_length = len(line)
 		if(line_length > 1): 
 			data = line
@@ -125,6 +128,13 @@ def main():
 						master_dict[data[line_length-1]]['cols'][header[index]] = {}
 				
 				for index in range(0,line_length-1):
+					if data[index] == '':
+						if index not in unique_dict:
+							unique_dict[index] = str(unique_data)
+							unique_data = unique_data +1
+						data[index] = unique_dict[index]
+				
+					lgr.debug("data for {0} is {1}".format(index,data[index]))
 					row += data[index]
 					# These are the individual column values from the CSV file that are put into the dictionary for analysis
 					#
