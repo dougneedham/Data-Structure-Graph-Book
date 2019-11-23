@@ -10,7 +10,7 @@ Here are some instructions for trying this yourself:
 1.	Download and install Gephi. 
 a.	You will probably need to modify the gephi.conf file to give it more resources		  -J-Xms2048m -J-Xmx8192m -J-Xverify:none  are the settings I use. 
 2.	Follow these instructions to set up the Vertabela reverse engineering tool: https://vertabelo.com/blog/reverse-engineering/
-3.	Run the attached python code ERD_to_DSG.py vertabelo_file.xml 
+3.	Run the python code ERD_to_DSG.py vertabelo_file.xml 
 4.	This will spit out two files dsg_nodes_datetimestamp.csv, and dsg_edges_datetimestamp.csv 
 5.	Open Gephi. 
 6.	In Data Laboratory click import spreadsheet
