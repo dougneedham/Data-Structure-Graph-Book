@@ -19,21 +19,24 @@ def main():
 		doc = xmltodict.parse(fd.read())
 	node_output = open(nodes_file,"w+")
 	node_output.write("Id,Label\n")
-	for i in range(1,len(doc['DatabaseModel']['Tables']['Table']) )  :
+	for i in range(0,len(doc['DatabaseModel']['Tables']['Table']) )  :
 		table_id = doc['DatabaseModel']['Tables']['Table'][i]['@Id']
 		table_name = doc['DatabaseModel']['Tables']['Table'][i]['Name']
 		string_to_print = '{0},{1}\n'.format(table_id,table_name)
+		#print(string_to_print)
 		node_output.write(string_to_print)
 	node_output.close()
 
 	edge_output = open(edges_file,"w+")
 	edge_output.write("Source,Target,Edge_Label\n")
-	for i in range(1,len(doc['DatabaseModel']['References']['Reference']) )  :
+	for i in range(0,len(doc['DatabaseModel']['References']['Reference']) )  :
 		source_table_id = doc['DatabaseModel']['References']['Reference'][i]['PKTable']
 		target_table_id = doc['DatabaseModel']['References']['Reference'][i]['FKTable']
 		edge_label = doc['DatabaseModel']['References']['Reference'][i]['Name']
 		string_to_print = '{0},{1},{2}\n'.format(source_table_id,target_table_id,edge_label)
+		#print(string_to_print)        
 		edge_output.write(string_to_print)
+	edge_output.close()
 
 
 if __name__ == '__main__':
