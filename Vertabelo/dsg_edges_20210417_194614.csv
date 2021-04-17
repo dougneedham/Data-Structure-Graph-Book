@@ -1,0 +1,15 @@
+Source,Target,Edge_Label
+t1,t4,stock_product
+t2,t1,product_product_type
+t8,t7,city_country
+t7,t6,client_city
+t6,t5,shipment_client
+t5,t9,shipmet_details_shipment
+t1,t9,shipmet_details_product
+t10,t5,shipment_shipment_type
+t13,t5,shipment_payment_type
+t13,t17,payment_data_payment_type
+t5,t18,payment_details_shipment
+t17,t18,payment_details_payment_data
+t5,t20,shipment_status_shipment
+t19,t20,shipment_status_status_catalog

@@ -1,0 +1,15 @@
+Id,Label
+t1,product
+t2,product_type
+t4,stock
+t5,shipment
+t6,client
+t7,city
+t8,country
+t9,shipment_details
+t10,shipment_type
+t13,payment_type
+t17,payment_data
+t18,payment_details
+t19,status_catalog
+t20,shipment_status
